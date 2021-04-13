@@ -2,8 +2,9 @@
 This is an ongoing project
 
 Main Notebooks: 
-scraper.ipynb: a module to scrape, parse, and preform calculation on college baseball game result data. 
-analysis.ipynb: a collection of interesting views and visualizations 
+<ul>
+  <li><a href="https://nbviewer.jupyter.org/github/nathanblumenfeld/ivybaseball/blob/main/scraper.ipynb">scraper.ipynb</a>: a module to scrape, parse, and preform calculations on college baseball game result data.  
+  <li><a href="https://nbviewer.jupyter.org/github/nathanblumenfeld/ivybaseball/blob/main/analysis.ipynb">analysis.ipynb</a>: a collection of interesting views and visualizations 
 
 Data:
 From BoydsWorld.com, NCAA, Fangraphs. 
