@@ -1,14 +1,27 @@
 """
 Stats module for IvyBaseball
 
-# Nathan Blume
+Obtain Statistics
+Currently Supported
+Batting
+wOBA - Weighted On-Base Average
+wRC - Weighted Runs Created
+wRC+ - Weighted Runs Created Plus 
+
+
+Pitching
+FIP - FIelding Independent Pitching
+ERA - Earned Run Average
+HR/9
+
+
+# Created by Nathan Blumenfeld
 # May 11th 2021
 """
-
-
+# IMPORTS
 from datetime import datetime
 from PIL import Image
-import ipynb.fs.full.scraper as sc
+from . import scraper as sc
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
@@ -16,6 +29,109 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
+
+
+def get_runs_scored_from_df(team_name, games):
+    """
+    Returns: int equal to total number of runs scored by team_name over given games
+
+    Parameter team_name: team to calculate runs scored for
+    Preconditions: team_name is a string format ex. "Cornell," "Colgate"
+    Parameter games: games to aggregate over
+    Precondition: games is a DataFrame returned by getGames() function
+    """
+    assert type(team_name) == str, "team_name invalid, must be string"
+    wins = get_wins_from_df(team_name, games)
+    wins["winner_runs_scored"] = wins["team_1_score"]
+    losses = get_losses_from_df(team_name, games)
+    losses["loser_runs_scored"] = losses["team_2_score"]
+    sum_runs_scored_in_wins = wins["winner_runs_scored"].sum()
+    sum_runs_scored_in_losses = losses["loser_runs_scored"].sum()
+    result = sum_runs_scored_in_wins+sum_runs_scored_in_losses
+    return result
+
+
+def get_runs_allowed_from_df(team_name, games):
+    """
+    Returns: int equal to total number of runs allowed by team_name over given get_games dataframe
+
+    Parameter team_name: team to calculate runs allowed for
+    Preconditions: team_name is a string format ex. "Cornell," "Colgate"
+    Parameter games: games to aggregate over
+    Precondition: games is a DataFrame returned by getGames() function
+    """
+    assert type(team_name) == str, "team_name invalid, must be string"
+    wins = get_wins_from_df(team_name, games)
+    wins["winner_runs_allowed"] = wins["team_2_score"]
+    losses = get_losses_from_df(team_name, games)
+    losses["loser_runs_allowed"] = losses["team_1_score"]
+    sum_runs_allowed_in_wins = wins["winner_runs_allowed"].sum()
+    sum_runs_allowed_in_losses = losses["loser_runs_allowed"].sum()
+    result = sum_runs_allowed_in_wins + sum_runs_allowed_in_losses
+    return result
+
+
+def get_run_difference_from_df(team_name, games):
+    """
+    Returns: The total run difference across a given set of get_games dataframe
+
+    Parameter team_name: team to return run difference of
+    Preconditions: team_name is a string format ex. "Cornell," "Colgate"
+    Parameter games: Games to filter
+    Precondition: games is a DataFrame returned by getGames() function
+    """
+    assert type(team_name) == str, "team_name invalid, must be string"
+    scored = get_runs_allowed_from_df(team_name, games)
+    allowed = get_runs_scored_from_df(team_name, games)
+    result = scored - allowed
+    return result
+
+
+def pythag_win_percentage_from_df(team_name, games):
+    """
+    Returns: The PythagenPat winning percentage expectation of a given team over given games.
+
+    W% = R^x/(R^x + RA^x)
+    where x = (RPG)^.287
+    Developed by David Smyth and Patriot
+
+    Parameter team_name: team to return expected winning % for
+    Preconditions: team_name is a string format ex. "Cornell," "Colgate"
+    Parameter games: games over which to calculate
+    Precondition: games is a DataFrame returned by getGames() function
+    """
+    assert type(team_name) == str, "team_name invalid, must be string"
+    run_diff = get_run_difference_from_df(team_name, games)
+    runs_scored = get_runs_scored_from_df(team_name, games)
+    runs_allowed = get_runs_allowed_from_df(team_name, games)
+    num_games = len(games.index)
+    if not num_games == 0:
+        runs_per_game = runs_scored / num_games
+    else:
+        runs_per_game = 0
+    x = runs_per_game ** 0.287
+    result = (runs_scored ** x) / ((runs_scored ** x) + (runs_allowed ** x))
+    return result
+
+
+def actual_win_percentage_from_df(team_name, games):
+    """
+    Returns: The actual (i.e. experimental) winning percentage of a given team over given games.
+
+    winning_percentage = games_won / games_plated
+
+    Parameter team_name: team to return actual winning % for
+    Preconditions: team_name is a string format ex. "Cornell," "Colgate"
+    Parameter games: games over which to calculate
+    Precondition: games is a DataFrame returned by getGames() function
+    """
+    assert type(team_name) == str, "team_name invalid, must be string"
+    wins = get_wins_from_df(team_name, games)
+    losses = get_losses_from_df(team_name, games)
+    num_wins = len(wins.index)
+    num_losses = len(losses.index)
+    win_percentage = num_wins / (num_wins+num_losses)
+    return win_percentage
 
 def get_rd_data(team_name, start, end):
     """
@@ -38,7 +154,6 @@ def get_rd_data(team_name, start, end):
         columns=["team_1", "team_1_score", "team_2", "team_2_score", "field"])
     games["date"] = games["date"].dt.strftime('%Y-%m-%d')
     return games
-# Pythagenpat intra-conference win %'s by team for the Ivy League
 
 
 def generate_ivy_pythags(start, end):
@@ -51,8 +166,7 @@ def generate_ivy_pythags(start, end):
     """
     assert type(start) == int, "start must be an int"
     assert type(end) == int, "end must be an int"
-    ivy_pythagenpat = {"team_name": [], "pythagenpat_pct": [],
-                       "actual_pct": [], "deviation": []}
+    ivy_pythagenpat = {"team_name": [], "pythagenpat_pct": [], "actual_pct": [], "deviation": []}
     for i in ["Brown", "Columbia", "Cornell", "Dartmouth", "Harvard", "Pennsylvania", "Princeton", "Yale"]:
         games = sc.get_intra_ivy(i, start, end)
         pythagenpat_pct = sc.pythag_win_percentage_from_df(i, games)
@@ -136,16 +250,19 @@ def get_wrc(player_id, year):
     wrc = ((((player_woba-league_woba)/woba_scale) +
             league_runs_per_pa))*plate_appearances
     return wrc
+
+
+def get_wraa(player_id, year):
     """
     Returns: The Weighted Runs Above Average (wRAA) for a given player in a given season
-    
+
     [(wOBA−leagueWOBA) / wOBAscale] ∗ PA
-    PA = AB + BB - IBB + SF + HBP 
+    PA = AB + BB - IBB + SF + HBP
 
     Parameter player_id: The ID of player to return for
-    Precondition: player_id is 
-    Parameter year: The season to return wRC for 
-    Precondition: year is an INT 
+    Precondition: player_id is
+    Parameter year: The season to return wRC for
+    Precondition: year is an INT
     """
     season_batting = pd.read_csv("data/cornellbatting"+str(year)+".csv")
     player_batting = season_batting[season_batting.player_id == player_id]
@@ -198,98 +315,102 @@ def get_cornell_woba(year):
     sac_flies = season_totals["SF"].values[0]
     sac_bunts = season_totals["SH"].values[0]
     plate_appearances = at_bats+walks+sac_flies+sac_bunts+hits_by_pitch
-    woba = (wbb*walks+whbp*hits_by_pitch+w1b*singles+w2b *
-            doubles+w3b*triples+whr*home_runs)/plate_appearances
+    woba = (wbb*walks+whbp*hits_by_pitch+w1b*singles+w2b*doubles+w3b*triples+whr*home_runs)/plate_appearances
     return woba
+
 def get_ivy_woba(year):
-        """
-        Returns: Ivy League Weighted On-Base Average in a given season
+    """
+    Returns: Ivy League Weighted On-Base Average in a given season
 
-        wOBA = (wBB×uBB + wHBP×HBP + w1B×1B + w2B×2B + w3B×3B +
-        wHR×HR) / (AB + BB – IBB + SF + HBP)
-        PA = AB + BB - IBB + SF + HBP 
+    wOBA = (wBB×uBB + wHBP×HBP + w1B×1B + w2B×2B + w3B×3B +
+    wHR×HR) / (AB + BB – IBB + SF + HBP)
+    PA = AB + BB - IBB + SF + HBP 
 
-        Parameter year: The season to return for 
-        Precondition: year is an INT 2012-2020
-        """  
-        linear_weights = pd.read_csv("data/ncaa_d1_woba_linear_weights.csv")
-        season_weights = linear_weights[linear_weights.Season==year]
-        wbb = season_weights["wBB"].values[0]
-        whbp = season_weights["wHBP"].values[0]
-        w1b = season_weights["w1B"].values[0]
-        w2b = season_weights["w2B"].values[0]
-        w3b = season_weights["w3B"].values[0]
-        whr = season_weights["wHR"].values[0]
-        ivy_totals = pd.read_excel("data/ivy_league_totals_2012_to_2020.xlsx", sheet_name="batting")
-        season_totals = ivy_totals[ivy_totals.Season==year]
-        walks = season_totals["BB"].values[0]
-        hits_by_pitch = season_totals["HBP"].values[0]
-        doubles = season_totals["2B"].values[0]
-        triples = season_totals["3B"].values[0]
-        home_runs = season_totals["HR"].values[0]
-        hits = season_totals["H"].values[0]
-        singles =  hits-(doubles+triples+home_runs)
-        at_bats = season_totals["AB"].values[0]
-        sac_flies = season_totals["SF"].values[0]
-        sac_bunts = season_totals["SH"].values[0]
-        plate_appearances = at_bats+walks+sac_flies+sac_bunts+hits_by_pitch
-        woba = (wbb*walks+whbp*hits_by_pitch+w1b*singles+w2b*doubles+w3b*triples+whr*home_runs)/plate_appearances
-        return wobadef get_cornell_wrc_plus(player_id, year):
+    Parameter year: The season to return for 
+    Precondition: year is an INT 2012-2020
+    """  
+    linear_weights = pd.read_csv("data/ncaa_d1_woba_linear_weights.csv")
+    season_weights = linear_weights[linear_weights.Season==year]
+    wbb = season_weights["wBB"].values[0]
+    whbp = season_weights["wHBP"].values[0]
+    w1b = season_weights["w1B"].values[0]
+    w2b = season_weights["w2B"].values[0]
+    w3b = season_weights["w3B"].values[0]
+    whr = season_weights["wHR"].values[0]
+    ivy_totals = pd.read_excel("data/ivy_league_totals_2012_to_2020.xlsx", sheet_name="batting")
+    season_totals = ivy_totals[ivy_totals.Season==year]
+    walks = season_totals["BB"].values[0]
+    hits_by_pitch = season_totals["HBP"].values[0]
+    doubles = season_totals["2B"].values[0]
+    triples = season_totals["3B"].values[0]
+    home_runs = season_totals["HR"].values[0]
+    hits = season_totals["H"].values[0]
+    singles =  hits-(doubles+triples+home_runs)
+    at_bats = season_totals["AB"].values[0]
+    sac_flies = season_totals["SF"].values[0]
+    sac_bunts = season_totals["SH"].values[0]
+    plate_appearances = at_bats+walks+sac_flies+sac_bunts+hits_by_pitch
+    woba = (wbb*walks+whbp*hits_by_pitch+w1b*singles+w2b*doubles+w3b*triples+whr*home_runs)/plate_appearances
+    return woba
+
+def get_cornell_wrc_plus(player_id, year):
     """
     Returns: wRC+ for a given player in given season
 
     wRC is a normalized, adjusting for park factors and run-scoring environment
     (((wRAA per PA + league runs per PA) + (league runs per PA - ballpark factor x league runs per PA) /
     league wRC per plate appearance, not including pitchers)) x 100.
-    
+
     Parameter: player_id
     Precondtion: player_id is..
     Parameter year: season to return for
     Precondtion: year is an int YYYY
     """
-#     linear_weights = pd.read_csv("data/ncaa_d1_woba_linear_weights.csv")
-#     season_weights = linear_weights[linear_weights.Season==year]
-#     league_woba = season_weights["wOBA"].values[0]
-#     woba_scale = season_weights["wOBAScale"].values[0]
-#     league_runs_per_pa = season_weights["R/PA"].values[0]
-#     wraa = get_wraa(player_id, year)
-#     park_factor = park_factors[park_factors["ballpark"]=="Cornell"]["park_factor_runs"].values[0]
-#     at_bats = player_batting["AB"].values[0]
-#     walks = player_batting["BB"].values[0]
-#     sac_flies = player_batting["SF"].values[0]
-#     sac_bunts = player_batting["SH"].values[0]
-#     hits_by_pitch = player_batting["HBP"].values[0]
-#     plate_appearances = at_bats+walks+sac_flies+sac_bunts+hits_by_pitch
-#     wraa_per_pa = wraa/plate_appearances
-#     wrc_plus = (((wraa_per_pa+league_runs_per_pa)+(league_runs_per_pa-park_factor*league_runs_per_pa)/(#league_) 
-#     return wrc_plus
+    #     linear_weights = pd.read_csv("data/ncaa_d1_woba_linear_weights.csv")
+    #     season_weights = linear_weights[linear_weights.Season==year]
+    #     league_woba = season_weights["wOBA"].values[0]
+    #     woba_scale = season_weights["wOBAScale"].values[0]
+    #     league_runs_per_pa = season_weights["R/PA"].values[0]
+    #     wraa = get_wraa(player_id, year)
+    #     park_factor = park_factors[park_factors["ballpark"]=="Cornell"]["park_factor_runs"].values[0]
+    #     at_bats = player_batting["AB"].values[0]
+    #     walks = player_batting["BB"].values[0]
+    #     sac_flies = player_batting["SF"].values[0]
+    #     sac_bunts = player_batting["SH"].values[0]
+    #     hits_by_pitch = player_batting["HBP"].values[0]
+    #     plate_appearances = at_bats+walks+sac_flies+sac_bunts+hits_by_pitch
+    #     wraa_per_pa = wraa/plate_appearances
+    #     wrc_plus = (((wraa_per_pa+league_runs_per_pa)+(league_runs_per_pa-park_factor*league_runs_per_pa)/(#league_)
+    #     return wrc_plus
     pass
-    def get_cornell_batting_stats(start):
-        """
-        Returns: 
-        """
-        batting = pd.read_csv("data/battingsince"+str(start)+".csv")
-        batting = batting.loc[batting['BA']>0, :]
-        team_list = {"player_id":[], "name":[], "year":[], "AB":[], "woba":[], "wrc":[], "wraa":[], "class_year":[]}
-        for i in range(len(batting)):
-            player_id = batting.iloc[i, 0]
-            player = batting.iloc[i,6]
-            year = batting.iloc[i, 1]
-            at_bats = batting.iloc[i,15]
-            class_year = batting.iloc[i,7]
-            woba = get_woba(player_id, year)
-            wrc  = get_wrc(player_id, year)
-            wraa  = get_wraa(player_id, year)
-            team_list["player_id"].append(player_id)
-            team_list["AB"].append(at_bats)
-            team_list["class_year"].append(class_year)
-            team_list["name"].append(player)
-            team_list["year"].append(year)
-            team_list["woba"].append(woba)
-            team_list["wrc"].append(wrc)
-            team_list["wraa"].append(wraa)
-        res = pd.DataFrame(team_list)
-        return res
+
+
+def get_cornell_batting_stats(start):
+    """
+    Returns: 
+    """
+    batting = pd.read_csv("data/battingsince"+str(start)+".csv")
+    batting = batting.loc[batting['BA']>0, :]
+    team_list = {"player_id":[], "name":[], "year":[], "AB":[], "woba":[], "wrc":[], "wraa":[], "class_year":[]}
+    for i in range(len(batting)):
+        player_id = batting.iloc[i, 0]
+        player = batting.iloc[i,6]
+        year = batting.iloc[i, 1]
+        at_bats = batting.iloc[i,15]
+        class_year = batting.iloc[i,7]
+        woba = get_woba(player_id, year)
+        wrc  = get_wrc(player_id, year)
+        wraa  = get_wraa(player_id, year)
+        team_list["player_id"].append(player_id)
+        team_list["AB"].append(at_bats)
+        team_list["class_year"].append(class_year)
+        team_list["name"].append(player)
+        team_list["year"].append(year)
+        team_list["woba"].append(woba)
+        team_list["wrc"].append(wrc)
+        team_list["wraa"].append(wraa)
+    res = pd.DataFrame(team_list)
+    return res
 
 def get_fip(player_id, year):
     """
@@ -317,7 +438,7 @@ def get_fip(player_id, year):
     fip = (((13*home_runs_allowed)+(3*(walks_given+hit_batters))-(2*strike_outs))/strike_outs) + fip_constant
     return fip
 
-  def get_cornell_fip(year):
+def get_cornell_fip(year):
     """
     Returns: Cornell total  Fielding Independent Pitching (FIP) for a given player in a given season
     
@@ -383,7 +504,7 @@ def get_era(player_id, year):
     era = player_pitching["ERA"].values[0]
     return era
 
-get_era(1546998, 2017)def get_runs_per_ip(player_id, year):
+def get_runs_per_ip(player_id, year):
     """
     Returns: runs per innings pitched
     

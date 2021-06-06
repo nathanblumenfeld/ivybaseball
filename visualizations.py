@@ -1,21 +1,21 @@
 """
 Visualizations module for IvyBaseball 
 
-# Nathan Blume
+Useful for creating visualizations of college baseball data
+# Nathan Blumenfeld
 # May 11th 2021
 """
 class Figure():
     """
+    The main class of the visualizations module. All visualizations are of parent class Figure. 
     
     """
     # ATTRIBUTES (defaults)
-    self.figure
-    GAME_WIDTH
 
     # GETTERS AND SETTERS
 
     # INITIALIZER
-    def __init__(self, style, y=SHIP_BOTTOM):
+    def __init__(self, style, width=FIGURE_WIDTH, height=FIGURE_HEIGHT):
         """
         Initializes a Figure object with the given style 
 
