@@ -26,6 +26,7 @@ class Games():
     """
     # ATTRIBUTES
     url = consts.GAMES_URL
+    
     # METHODS    
     def __init__(self, team=consts.TEAM_NAME, start=consts.START_YEAR, end=consts.END_YEAR):
         """
