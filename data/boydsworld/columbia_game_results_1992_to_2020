@@ -1,0 +1,1194 @@
+date,field,opponent,runs_scored,runs_allowed,run_difference
+1992-03-07,@North Carolina-Charlotte,North Carolina-Charlotte,8,9,-1
+1992-03-07,@North Carolina-Charlotte,North Carolina-Charlotte,0,8,-8
+1992-03-08,@North Carolina-Charlotte,North Carolina-Charlotte,6,9,-3
+1992-03-13,@Barry,Barry,6,11,-5
+1992-03-14,@Barry,Barry,6,17,-11
+1992-03-15,@Nova,Nova,1,12,-11
+1992-03-16,@Neutral,Monmouth,5,2,3
+1992-03-18,@Fla. Atlantic,Fla. Atlantic,6,7,-1
+1992-03-19,@neutral,Southern Illinois,8,9,-1
+1992-03-21,@Neutral,Wesleyan,8,9,-1
+1992-03-28,@Columbia,Navy,14,8,6
+1992-03-28,@Columbia,Navy,0,20,-20
+1992-03-29,@Columbia,Pennsylvania,10,7,3
+1992-03-29,@Columbia,Pennsylvania,8,4,4
+1992-03-31,@Columbia,Manhattan,3,2,1
+1992-04-01,@Columbia,St. John's,10,6,4
+1992-04-05,@Princeton,Princeton,1,23,-22
+1992-04-05,@Princeton,Princeton,3,7,-4
+1992-04-08,@Columbia,C. W. Post,9,12,-3
+1992-04-11,@Yale,Yale,1,14,-13
+1992-04-11,@Yale,Yale,2,8,-6
+1992-04-15,@Columbia,Iona,2,13,-11
+1992-04-18,@Army,Army,5,6,-1
+1992-04-18,@Army,Army,2,1,1
+1992-04-19,@Brown,Brown,4,2,2
+1992-04-19,@Brown,Brown,3,6,-3
+1992-04-20,@Columbia,Long Island,8,5,3
+1992-04-23,@Columbia,Siena,13,6,7
+1992-04-26,@Columbia,Harvard,6,3,3
+1992-04-26,@Columbia,Harvard,9,5,4
+1992-04-27,@Columbia,Dartmouth,2,6,-4
+1992-04-27,@Columbia,Dartmouth,2,3,-1
+1992-04-28,@Columbia,Rutgers,5,9,-4
+1992-04-29,@Cornell,Cornell,3,5,-2
+1992-04-29,@Cornell,Cornell,3,6,-3
+1994-01-01,@Pace,Pace,14,9,5
+1994-03-04,@William and Mary,William and Mary,3,16,-13
+1994-03-05,@William and Mary,William and Mary,5,8,-3
+1994-03-06,@William and Mary,William and Mary,6,7,-1
+1994-03-11,@Neutral,Georgetown,13,8,5
+1994-03-11,@Florida International,Florida International,7,15,-8
+1994-03-12,@Barry,Barry,1,5,-4
+1994-03-13,@neutral,Army,9,12,-3
+1994-03-14,@Neutral,Providence,7,9,-2
+1994-03-16,@Neutral,Detroit Mercy,9,10,-1
+1994-03-17,@Florida Atlantic,Florida Atlantic,5,6,-1
+1994-03-18,@Neutral,Detroit Mercy,11,19,-8
+1994-03-19,@Neutral,Wm. Patterson,20,8,12
+1994-03-20,@Neutral,Wesleyan,0,6,-6
+1994-03-26,@Columbia,Pennsylvania,6,9,-3
+1994-03-26,@Columbia,Pennsylvania,4,1,3
+1994-04-01,@Columbia,Yale,2,0,2
+1994-04-01,@Columbia,Yale,9,1,8
+1994-04-02,@Columbia,Brown,6,13,-7
+1994-04-02,@Columbia,Brown,5,0,5
+1994-04-05,@Columbia,St. John's,14,15,-1
+1994-04-09,@Harvard,Harvard,8,6,2
+1994-04-09,@Harvard,Harvard,5,9,-4
+1994-04-10,@Dartmouth,Dartmouth,3,5,-2
+1994-04-14,@neutral,Fairleigh Dickinson,11,8,3
+1994-04-15,@Columbia,Iona,9,8,1
+1994-04-17,@neutral,Princeton,4,9,-5
+1994-04-17,@neutral,Princeton,5,4,1
+1994-04-18,@neutral,Princeton,11,15,-4
+1994-04-18,@neutral,Princeton,14,8,6
+1994-04-20,@Dartmouth,Dartmouth,20,4,16
+1994-04-21,@Columbia,Siena,3,9,-6
+1994-04-21,@Columbia,Siena,6,5,1
+1994-04-23,@Cornell,Cornell,8,2,6
+1994-04-23,@Cornell,Cornell,10,5,5
+1994-04-24,@Cornell,Cornell,7,1,6
+1994-04-24,@Cornell,Cornell,6,3,3
+1994-04-26,@Columbia,Rutgers,5,8,-3
+1994-04-29,@Fordham,Fordham,7,13,-6
+1994-04-29,@Fordham,Fordham,5,8,-3
+1994-04-30,@Pennsylvania,Pennsylvania,3,4,-1
+1994-04-30,@Pennsylvania,Pennsylvania,1,3,-2
+1995-03-04,@William and Mary,William and Mary,6,7,-1
+1995-03-04,@William and Mary,William and Mary,4,8,-4
+1995-03-05,@William and Mary,William and Mary,7,11,-4
+1995-03-10,@Neutral,Villanova,2,15,-13
+1995-03-11,@Barry,Barry,0,10,-10
+1995-03-13,@Neutral,Rowan,19,6,13
+1995-03-13,@Neutral,Ashland,4,9,-5
+1995-03-15,@Florida Atlantic,Florida Atlantic,5,8,-3
+1995-03-16,@Neutral,Providence,9,8,1
+1995-03-17,@Neutral,Iona,12,10,2
+1995-03-17,@Neutral,Wesleyan,7,8,-1
+1995-03-18,@Neutral,Wm. Patterson,5,4,1
+1995-03-19,@Neutral,Williams,25,18,7
+1995-03-25,@Columbia,C. W. Post,10,11,-1
+1995-03-25,@Columbia,C. W. Post,4,7,-3
+1995-04-01,@Columbia,Dartmouth,16,13,3
+1995-04-01,@Columbia,Dartmouth,7,9,-2
+1995-04-02,@Columbia,Harvard,4,3,1
+1995-04-02,@Columbia,Harvard,6,7,-1
+1995-04-05,@Columbia,Long Island,12,15,-3
+1995-04-08,@Brown,Brown,7,4,3
+1995-04-09,@Yale,Yale,2,3,-1
+1995-04-09,@Yale,Yale,4,5,-1
+1995-04-10,@Brown,Brown,5,4,1
+1995-04-14,@Princeton,Princeton,0,5,-5
+1995-04-14,@Princeton,Princeton,10,6,4
+1995-04-15,@Princeton,Princeton,6,5,1
+1995-04-15,@Princeton,Princeton,5,2,3
+1995-04-18,@Siena,Siena,3,7,-4
+1995-04-18,@Siena,Siena,9,10,-1
+1995-04-20,@St. John's,St. John's,10,9,1
+1995-04-22,@Columbia,Cornell,18,11,7
+1995-04-22,@Columbia,Cornell,11,13,-2
+1995-04-23,@Columbia,Cornell,6,5,1
+1995-04-23,@Columbia,Cornell,7,13,-6
+1995-04-25,@Rutgers,Rutgers,8,12,-4
+1995-04-27,@Columbia,St. Francis,11,15,-4
+1995-04-29,@Pennsylvania,Pennsylvania,0,3,-3
+1995-04-29,@Pennsylvania,Pennsylvania,3,4,-1
+1996-03-01,@William and Mary,William and Mary,6,7,-1
+1996-03-02,@William and Mary,William and Mary,1,8,-7
+1996-03-02,@William and Mary,William and Mary,6,5,1
+1996-03-03,@William and Mary,William and Mary,7,9,-2
+1996-03-08,@neutral,Detroit Mercy,4,12,-8
+1996-03-09,@neutral,Barry,3,4,-1
+1996-03-10,@neutral,Michigan State,5,10,-5
+1996-03-12,@neutral,William Paterson,7,6,1
+1996-03-13,@neutral,St. Peter's,10,1,9
+1996-03-13,@Florida Atlantic,Florida Atlantic,2,3,-1
+1996-03-14,@neutral,Wesleyan,6,5,1
+1996-03-15,@neutral,Iona,10,12,-2
+1996-03-16,@Florida Atlantic,Florida Atlantic,2,16,-14
+1996-03-17,@neutral,Williams,6,5,1
+1996-03-22,@Columbia,Pace,2,5,-3
+1996-03-23,@C. W. Post,C. W. Post,8,10,-2
+1996-03-23,@C. W. Post,C. W. Post,7,8,-1
+1996-03-27,@Columbia,St. John's,4,13,-9
+1996-03-30,@Columbia,Pennsylvania,1,4,-3
+1996-03-30,@Columbia,Pennsylvania,2,4,-2
+1996-03-31,@Pennsylvania,Pennsylvania,3,4,-1
+1996-03-31,@Pennsylvania,Pennsylvania,2,3,-1
+1996-04-03,@Columbia,Army,13,3,10
+1996-04-05,@Columbia,Brown,4,3,1
+1996-04-05,@Columbia,Brown,5,8,-3
+1996-04-06,@Columbia,Yale,4,3,1
+1996-04-06,@Columbia,Yale,3,0,3
+1996-04-13,@Harvard,Harvard,10,0,10
+1996-04-13,@Harvard,Harvard,1,3,-2
+1996-04-15,@Dartmouth,Dartmouth,3,13,-10
+1996-04-15,@Dartmouth,Dartmouth,0,4,-4
+1996-04-20,@Columbia,Princeton,11,9,2
+1996-04-20,@Columbia,Princeton,4,9,-5
+1996-04-21,@Princeton,Princeton,5,10,-5
+1996-04-21,@neutral,Princeton,11,8,3
+1996-04-23,@Columbia,Rutgers,6,15,-9
+1996-04-24,@neutral,Siena,5,6,-1
+1996-04-25,@Columbia,Long Island,5,9,-4
+1996-04-27,@Cornell,Cornell,5,8,-3
+1996-04-27,@Cornell,Cornell,1,4,-3
+1996-04-28,@Cornell,Cornell,3,4,-1
+1996-04-28,@Cornell,Cornell,3,1,2
+1997-03-07,@neutral,William and Mary,7,12,-5
+1997-03-08,@neutral,William and Mary,3,4,-1
+1997-03-09,@neutral,William and Mary,3,4,-1
+1997-03-15,@neutral,Illinois State,13,22,-9
+1997-03-16,@neutral,College of New Jersey,9,5,4
+1997-03-18,@Florida International,Florida International,1,7,-6
+1997-03-19,@neutral,Wesleyan,5,9,-4
+1997-03-21,@neutral,Florida Atlantic,6,19,-13
+1997-03-22,@neutral,Florida Atlantic,3,5,-2
+1997-03-22,@neutral,Iona,23,10,13
+1997-03-23,@neutral,Williams,17,18,-1
+1997-03-26,@St. John's,St. John's,3,5,-2
+1997-03-28,@neutral,Pennsylvania,9,2,7
+1997-03-28,@neutral,Pennsylvania,10,11,-1
+1997-03-29,@neutral,Pennsylvania,0,2,-2
+1997-04-02,@neutral,Army,7,8,-1
+1997-04-05,@Columbia,Harvard,1,2,-1
+1997-04-05,@Columbia,Harvard,6,7,-1
+1997-04-06,@neutral,Dartmouth,7,10,-3
+1997-04-06,@neutral,Dartmouth,7,11,-4
+1997-04-08,@neutral,Long Island,18,12,6
+1997-04-12,@neutral,Yale,2,8,-6
+1997-04-13,@neutral,Brown,2,1,1
+1997-04-13,@neutral,Brown,10,4,6
+1997-04-14,@neutral,Yale,5,6,-1
+1997-04-15,@neutral,Siena,4,2,2
+1997-04-15,@neutral,Siena,5,2,3
+1997-04-19,@neutral,Princeton,8,9,-1
+1997-04-19,@neutral,Princeton,2,3,-1
+1997-04-20,@neutral,Princeton,0,4,-4
+1997-04-20,@neutral,Princeton,3,13,-10
+1997-04-22,@neutral,Rutgers,8,2,6
+1997-04-26,@neutral,Cornell,3,9,-6
+1997-04-26,@neutral,Cornell,4,5,-1
+1997-04-27,@neutral,Cornell,13,12,1
+1997-04-27,@neutral,Cornell,21,18,3
+1997-04-29,@neutral,Pace,4,5,-1
+1997-05-04,@neutral,Pennsylvania,9,8,1
+1998-03-06,@Campbell,Campbell,5,14,-9
+1998-03-07,@neutral,Michigan State,3,8,-5
+1998-03-07,@Campbell,Campbell,0,4,-4
+1998-03-14,@neutral,Monmouth,5,17,-12
+1998-03-15,@neutral,Pace,7,5,2
+1998-03-16,@neutral,Iona,5,6,-1
+1998-03-20,@Florida Atlantic,Florida Atlantic,0,6,-6
+1998-03-21,@Florida Atlantic,Florida Atlantic,3,8,-5
+1998-03-25,@Columbia,St. John's,3,28,-25
+1998-03-28,@Columbia,Pennsylvania,2,13,-11
+1998-03-28,@Columbia,Pennsylvania,2,11,-9
+1998-03-29,@Pennsylvania,Pennsylvania,2,11,-9
+1998-03-29,@Pennsylvania,Pennsylvania,4,14,-10
+1998-04-04,@Columbia,Yale,0,3,-3
+1998-04-04,@Columbia,Yale,14,10,4
+1998-04-05,@Columbia,Brown,3,2,1
+1998-04-05,@Columbia,Brown,3,5,-2
+1998-04-07,@Long Island,Long Island,9,10,-1
+1998-04-10,@Dartmouth,Dartmouth,2,11,-9
+1998-04-10,@Dartmouth,Dartmouth,0,6,-6
+1998-04-11,@Harvard,Harvard,3,4,-1
+1998-04-11,@Harvard,Harvard,4,9,-5
+1998-04-14,@Columbia,Siena,9,8,1
+1998-04-14,@Columbia,Siena,1,10,-9
+1998-04-18,@Columbia,Princeton,6,2,4
+1998-04-18,@Columbia,Princeton,3,10,-7
+1998-04-20,@Columbia,Princeton,1,5,-4
+1998-04-20,@Columbia,Princeton,11,10,1
+1998-04-21,@Columbia,Rutgers,5,16,-11
+1998-04-25,@Cornell,Cornell,5,6,-1
+1998-04-25,@Cornell,Cornell,6,9,-3
+1998-04-27,@Cornell,Cornell,1,6,-5
+1998-04-27,@Cornell,Cornell,6,5,1
+1998-04-28,@Georgetown,Georgetown,9,1,8
+1998-04-28,@Georgetown,Georgetown,2,8,-6
+1998-05-02,@Pace,Pace,3,6,-3
+1998-05-02,@Pace,Pace,3,7,-4
+1999-03-12,@neutral,William Paterson,1,0,1
+1999-03-13,@neutral,Pace,13,9,4
+1999-03-14,@neutral,Purdue,6,5,1
+1999-03-15,@neutral,Iona,3,20,-17
+1999-03-16,@neutral,Oakland,3,4,-1
+1999-03-17,@neutral,Wesleyan,2,6,-4
+1999-03-18,@neutral,Hartford,1,0,1
+1999-03-19,@neutral,Indiana,3,4,-1
+1999-03-20,@neutral,Indiana,6,13,-7
+1999-03-23,@Columbia,SUNY-Stony Brook,2,5,-3
+1999-03-26,@Columbia,Maine,2,5,-3
+1999-03-27,@Pennsylvania,Pennsylvania,4,3,1
+1999-03-27,@Pennsylvania,Pennsylvania,2,6,-4
+1999-03-28,@Columbia,Pennsylvania,2,1,1
+1999-03-28,@Columbia,Pennsylvania,4,7,-3
+1999-03-31,@Army,Army,1,4,-3
+1999-04-02,@Columbia,Dartmouth,2,14,-12
+1999-04-02,@Columbia,Dartmouth,7,4,3
+1999-04-03,@Columbia,Harvard,1,9,-8
+1999-04-03,@Columbia,Harvard,9,8,1
+1999-04-06,@Columbia,Long Island,9,18,-9
+1999-04-07,@Columbia,Manhattan,7,8,-1
+1999-04-10,@Brown,Brown,15,6,9
+1999-04-10,@Brown,Brown,7,8,-1
+1999-04-11,@Yale,Yale,2,3,-1
+1999-04-11,@Yale,Yale,6,2,4
+1999-04-13,@Wagner,Wagner,12,13,-1
+1999-04-17,@Columbia,Cornell,11,8,3
+1999-04-17,@Columbia,Cornell,11,13,-2
+1999-04-18,@Columbia,Cornell,5,13,-8
+1999-04-18,@Columbia,Cornell,3,10,-7
+1999-04-24,@Princeton,Princeton,5,7,-2
+1999-04-24,@Princeton,Princeton,6,8,-2
+1999-04-25,@Princeton,Princeton,0,6,-6
+1999-04-25,@Princeton,Princeton,1,4,-3
+1999-04-28,@Fordham,Fordham,1,4,-3
+1999-04-28,@Fordham,Fordham,1,4,-3
+1999-05-01,@C. W. Post,C. W. Post,6,2,4
+1999-05-01,@C. W. Post,C. W. Post,4,0,4
+1999-05-03,@Rutgers,Rutgers,3,5,-2
+2000-03-03,@Charleston Southern,Charleston Southern,5,18,-13
+2000-03-03,@Charleston Southern,Charleston Southern,1,3,-2
+2000-03-04,@Charleston Southern,Charleston Southern,5,9,-4
+2000-03-04,@Charleston Southern,Charleston Southern,3,8,-5
+2000-03-10,@James Madison,James Madison,7,16,-9
+2000-03-12,@James Madison,James Madison,8,12,-4
+2000-03-12,@James Madison,James Madison,7,22,-15
+2000-03-13,@Radford,Radford,0,6,-6
+2000-03-14,@Davidson,Davidson,6,18,-12
+2000-03-14,@North Carolina-Charlotte,North Carolina-Charlotte,4,1,3
+2000-03-15,@Wake Forest,Wake Forest,5,9,-4
+2000-03-17,@Winthrop,Winthrop,5,2,3
+2000-03-17,@Winthrop,Winthrop,0,3,-3
+2000-03-18,@Winthrop,Winthrop,3,2,1
+2000-03-19,@neutral,Penn State,10,13,-3
+2000-03-22,@Columbia,St. John's,4,5,-1
+2000-03-25,@Navy,Navy,6,8,-2
+2000-03-25,@Navy,Navy,4,9,-5
+2000-03-26,@Navy,Navy,2,5,-3
+2000-03-26,@Navy,Navy,4,10,-6
+2000-03-29,@Manhattan,Manhattan,8,9,-1
+2000-04-01,@Columbia,Brown,6,13,-7
+2000-04-01,@Columbia,Brown,10,9,1
+2000-04-02,@Columbia,Yale,7,5,2
+2000-04-02,@Columbia,Yale,14,9,5
+2000-04-08,@Harvard,Harvard,8,9,-1
+2000-04-08,@Harvard,Harvard,9,14,-5
+2000-04-10,@Dartmouth,Dartmouth,2,10,-8
+2000-04-10,@Dartmouth,Dartmouth,5,6,-1
+2000-04-15,@Columbia,Princeton,1,13,-12
+2000-04-15,@Columbia,Princeton,8,9,-1
+2000-04-16,@Columbia,Princeton,1,16,-15
+2000-04-16,@Columbia,Princeton,1,7,-6
+2000-04-18,@Columbia,Rutgers,4,12,-8
+2000-04-21,@Cornell,Cornell,4,5,-1
+2000-04-23,@Cornell,Cornell,6,2,4
+2000-04-23,@Cornell,Cornell,5,16,-11
+2000-04-24,@Cornell,Cornell,0,11,-11
+2000-04-26,@Columbia,Fordham,0,7,-7
+2000-04-26,@Columbia,Fordham,4,1,3
+2000-04-29,@Columbia,Pennsylvania,10,9,1
+2000-04-29,@Columbia,Pennsylvania,9,7,2
+2000-04-30,@Pennsylvania,Pennsylvania,9,13,-4
+2000-04-30,@Pennsylvania,Pennsylvania,3,13,-10
+2000-05-02,@Columbia,Long Island,12,10,2
+2001-03-03,@Elon,Elon,1,12,-11
+2001-03-04,@Elon,Elon,1,9,-8
+2001-03-09,@Cal Poly,Cal Poly,2,3,-1
+2001-03-10,@Cal Poly,Cal Poly,4,5,-1
+2001-03-10,@Cal Poly,Cal Poly,2,8,-6
+2001-03-11,@Cal Poly,Cal Poly,3,4,-1
+2001-03-11,@Cal Poly,Cal Poly,1,5,-4
+2001-03-12,@San Fransisco State,San Fransisco State,2,3,-1
+2001-03-13,@Santa Clara,Santa Clara,7,8,-1
+2001-03-13,@Pacific,Pacific,1,10,-9
+2001-03-14,@California,California,2,5,-3
+2001-03-15,@UC Santa Barbara,UC Santa Barbara,1,12,-11
+2001-03-16,@UC Santa Barbara,UC Santa Barbara,3,10,-7
+2001-03-18,@Columbia,Fordham,1,3,-2
+2001-03-18,@Columbia,Fordham,5,4,1
+2001-03-24,@New York Tech,New York Tech,9,7,2
+2001-03-24,@New York Tech,New York Tech,9,0,9
+2001-03-25,@Stony Brook,Stony Brook,14,8,6
+2001-03-25,@Stony Brook,Stony Brook,2,9,-7
+2001-03-31,@Columbia,Harvard,0,14,-14
+2001-03-31,@Columbia,Harvard,3,2,1
+2001-04-01,@Columbia,Dartmouth,6,3,3
+2001-04-01,@Columbia,Dartmouth,6,3,3
+2001-04-03,@Long Island,Long Island,5,4,1
+2001-04-07,@Yale,Yale,3,2,1
+2001-04-07,@Yale,Yale,3,2,1
+2001-04-09,@Brown,Brown,6,9,-3
+2001-04-09,@Brown,Brown,12,13,-1
+2001-04-11,@Columbia,Lafayette,6,5,1
+2001-04-13,@Princeton,Princeton,0,1,-1
+2001-04-13,@Princeton,Princeton,9,2,7
+2001-04-14,@Princeton,Princeton,5,8,-3
+2001-04-14,@Princeton,Princeton,1,6,-5
+2001-04-18,@Rutgers,Rutgers,2,20,-18
+2001-04-21,@Columbia,Cornell,5,7,-2
+2001-04-21,@Columbia,Cornell,16,3,13
+2001-04-22,@Columbia,Cornell,10,9,1
+2001-04-22,@Columbia,Cornell,4,5,-1
+2001-04-25,@Fordham,Fordham,5,4,1
+2001-04-25,@Fordham,Fordham,6,5,1
+2001-04-28,@Columbia,Pennsylvania,2,3,-1
+2001-04-28,@Columbia,Pennsylvania,7,2,5
+2001-04-29,@Pennsylvania,Pennsylvania,11,8,3
+2001-04-29,@Pennsylvania,Pennsylvania,3,8,-5
+2001-04-30,@St. John's,St. John's,9,14,-5
+2001-05-01,@Columbia,Manhattan,9,0,9
+2002-03-03,@Davidson,Davidson,14,8,6
+2002-03-03,@Davidson,Davidson,4,7,-3
+2002-03-09,@Ohio,Ohio,2,13,-11
+2002-03-09,@Ohio,Ohio,16,14,2
+2002-03-10,@Ohio,Ohio,7,13,-6
+2002-03-10,@Ohio,Ohio,8,12,-4
+2002-03-15,@William and Mary,William and Mary,0,11,-11
+2002-03-16,@William and Mary,William and Mary,2,6,-4
+2002-03-18,@Old Dominion,Old Dominion,1,4,-3
+2002-03-18,@neutral,Connecticut,2,12,-10
+2002-03-19,@Georgetown,Georgetown,7,3,4
+2002-03-19,@Georgetown,Georgetown,12,9,3
+2002-03-21,@Coppin State,Coppin State,12,0,12
+2002-03-21,@Coppin State,Coppin State,7,0,7
+2002-03-22,@Pace,Pace,21,1,20
+2002-03-23,@C. W. Post,C. W. Post,5,6,-1
+2002-03-23,@C. W. Post,C. W. Post,1,9,-8
+2002-03-24,@Columbia,New York Tech,5,10,-5
+2002-03-24,@Columbia,New York Tech,9,5,4
+2002-03-30,@Columbia,Stony Brook,22,8,14
+2002-03-30,@Columbia,Stony Brook,10,7,3
+2002-04-06,@Columbia,Yale,7,1,6
+2002-04-06,@Columbia,Yale,13,12,1
+2002-04-07,@Columbia,Brown,7,3,4
+2002-04-07,@Columbia,Brown,5,8,-3
+2002-04-10,@St. John's,St. John's,5,8,-3
+2002-04-13,@Dartmouth,Dartmouth,3,1,2
+2002-04-14,@Harvard,Harvard,12,5,7
+2002-04-14,@Harvard,Harvard,6,10,-4
+2002-04-15,@Dartmouth,Dartmouth,5,3,2
+2002-04-17,@Columbia,Rutgers,11,21,-10
+2002-04-20,@Columbia,Princeton,7,14,-7
+2002-04-20,@Columbia,Princeton,6,7,-1
+2002-04-21,@Columbia,Princeton,4,11,-7
+2002-04-21,@Columbia,Princeton,6,5,1
+2002-04-24,@Fordham,Fordham,2,11,-9
+2002-04-24,@Fordham,Fordham,11,3,8
+2002-04-27,@Cornell,Cornell,6,9,-3
+2002-04-27,@Cornell,Cornell,6,0,6
+2002-04-28,@Cornell,Cornell,4,2,2
+2002-04-28,@Cornell,Cornell,6,7,-1
+2002-05-01,@Manhattan,Manhattan,8,13,-5
+2002-05-04,@Pennsylvania,Pennsylvania,3,4,-1
+2002-05-04,@Pennsylvania,Pennsylvania,10,2,8
+2002-05-05,@Columbia,Pennsylvania,9,10,-1
+2002-05-05,@Columbia,Pennsylvania,5,8,-3
+2002-05-07,@Columbia,Long Island,13,3,10
+2003-03-08,@William and Mary,William and Mary,1,11,-10
+2003-03-08,@William and Mary,William and Mary,9,7,2
+2003-03-09,@William and Mary,William and Mary,6,12,-6
+2003-03-09,@William and Mary,William and Mary,8,13,-5
+2003-03-15,@neutral,Fairleigh Dickinson,2,0,2
+2003-03-15,@neutral,Fairleigh Dickinson,10,3,7
+2003-03-16,@neutral,Massachusetts,0,4,-4
+2003-03-16,@neutral,Northern Iowa,8,13,-5
+2003-03-17,@neutral,Bradley,4,3,1
+2003-03-18,@Central Florida,Central Florida,4,7,-3
+2003-03-18,@Florida,Florida,8,24,-16
+2003-03-19,@Stetson,Stetson,5,16,-11
+2003-03-20,@South Florida,South Florida,9,8,1
+2003-03-21,@neutral,Ohio State,3,6,-3
+2003-03-22,@Columbia,Pace,4,7,-3
+2003-03-23,@New York Tech,New York Tech,2,10,-8
+2003-03-23,@New York Tech,New York Tech,8,3,5
+2003-03-26,@Columbia,St. John's,5,3,2
+2003-03-29,@Columbia,Pennsylvania,11,6,5
+2003-03-29,@Columbia,Pennsylvania,10,19,-9
+2003-03-31,@Pennsylvania,Pennsylvania,6,9,-3
+2003-03-31,@Pennsylvania,Pennsylvania,2,21,-19
+2003-04-02,@Columbia,Wagner,10,1,9
+2003-04-05,@Columbia,Dartmouth,5,1,4
+2003-04-05,@Columbia,Dartmouth,7,3,4
+2003-04-06,@Columbia,Harvard,4,8,-4
+2003-04-06,@Columbia,Harvard,3,1,2
+2003-04-10,@Columbia,Wagner,11,3,8
+2003-04-13,@Yale,Yale,16,1,15
+2003-04-13,@Yale,Yale,2,3,-1
+2003-04-14,@Brown,Brown,6,1,5
+2003-04-14,@Brown,Brown,4,10,-6
+2003-04-15,@Hofstra,Hofstra,14,15,-1
+2003-04-15,@Hofstra,Hofstra,16,17,-1
+2003-04-16,@Rutgers,Rutgers,11,1,10
+2003-04-18,@Columbia,Cornell,5,4,1
+2003-04-18,@Columbia,Cornell,7,10,-3
+2003-04-19,@Columbia,Cornell,2,6,-4
+2003-04-19,@Columbia,Cornell,1,7,-6
+2003-04-22,@Columbia,Hofstra,21,7,14
+2003-04-23,@Columbia,Fordham,4,8,-4
+2003-04-23,@Columbia,Fordham,3,12,-9
+2003-04-27,@Princeton,Princeton,8,2,6
+2003-04-27,@Princeton,Princeton,4,5,-1
+2003-04-28,@Princeton,Princeton,11,4,7
+2003-04-28,@Princeton,Princeton,1,3,-2
+2003-04-30,@Columbia,Manhattan,4,5,-1
+2003-04-30,@Columbia,Manhattan,16,5,11
+2004-03-05,@Birmingham-Southern,Birmingham-Southern,3,15,-12
+2004-03-06,@Birmingham-Southern,Birmingham-Southern,2,4,-2
+2004-03-06,@Birmingham-Southern,Birmingham-Southern,0,9,-9
+2004-03-07,@Birmingham-Southern,Birmingham-Southern,5,6,-1
+2004-03-13,@neutral,Army,4,12,-8
+2004-03-14,@neutral,Bucknell,1,6,-5
+2004-03-14,@neutral,St. Bonaventure,0,12,-12
+2004-03-15,@neutral,Northern Iowa,1,9,-8
+2004-03-17,@neutral,Fairfield,3,4,-1
+2004-03-17,@neutral,Indiana,5,15,-10
+2004-03-18,@neutral,"Miami, Ohio",6,4,2
+2004-03-19,@neutral,Army,7,6,1
+2004-03-24,@St. John's,St. John's,3,9,-6
+2004-03-27,@Pennsylvania,Pennsylvania,19,9,10
+2004-03-27,@Pennsylvania,Pennsylvania,3,5,-2
+2004-03-28,@Columbia,Pennsylvania,12,2,10
+2004-03-28,@Columbia,Pennsylvania,8,4,4
+2004-04-03,@Columbia,Brown,8,23,-15
+2004-04-03,@Columbia,Brown,4,1,3
+2004-04-04,@Columbia,Yale,2,4,-2
+2004-04-04,@Columbia,Yale,11,7,4
+2004-04-06,@Columbia,Long Island,9,6,3
+2004-04-09,@Harvard,Harvard,3,4,-1
+2004-04-09,@Harvard,Harvard,2,10,-8
+2004-04-10,@Dartmouth,Dartmouth,3,11,-8
+2004-04-10,@Dartmouth,Dartmouth,4,3,1
+2004-04-17,@Columbia,Princeton,9,23,-14
+2004-04-17,@Columbia,Princeton,9,10,-1
+2004-04-18,@Columbia,Princeton,1,3,-2
+2004-04-18,@Columbia,Princeton,4,8,-4
+2004-04-21,@Fordham,Fordham,2,9,-7
+2004-04-21,@Fordham,Fordham,13,10,3
+2004-04-24,@Cornell,Cornell,5,4,1
+2004-04-24,@Cornell,Cornell,0,5,-5
+2004-04-25,@Cornell,Cornell,3,0,3
+2004-04-27,@Columbia,Rutgers,9,15,-6
+2004-04-28,@Manhattan,Manhattan,9,10,-1
+2004-05-01,@Columbia,Army,0,9,-9
+2004-05-01,@Columbia,Army,8,7,1
+2004-05-02,@Army,Army,1,4,-3
+2004-05-02,@Army,Army,4,3,1
+2004-05-03,@Cornell,Cornell,7,8,-1
+2005-03-05,@Elon,Elon,0,8,-8
+2005-03-05,@Elon,Elon,5,20,-15
+2005-03-06,@Elon,Elon,4,5,-1
+2005-03-12,@neutral,Army,0,13,-13
+2005-03-13,@neutral,Army,2,12,-10
+2005-03-13,@neutral,Army,0,6,-6
+2005-03-14,@neutral,Fairleigh Dickinson,7,6,1
+2005-03-16,@Central Florida,Central Florida,2,13,-11
+2005-03-16,@Central Florida,Central Florida,0,10,-10
+2005-03-18,@neutral,St. Francis,3,7,-4
+2005-03-19,@neutral,Vermont,5,3,2
+2005-03-19,@neutral,Vermont,2,6,-4
+2005-03-25,@Pennsylvania,Pennsylvania,2,7,-5
+2005-03-25,@Pennsylvania,Pennsylvania,9,11,-2
+2005-03-26,@Columbia,Pennsylvania,4,2,2
+2005-03-26,@Columbia,Pennsylvania,7,9,-2
+2005-03-29,@Columbia,St. John's,3,22,-19
+2005-04-04,@Columbia,Harvard,3,13,-10
+2005-04-04,@Columbia,Harvard,3,5,-2
+2005-04-05,@Columbia,Dartmouth,3,10,-7
+2005-04-05,@Columbia,Dartmouth,8,9,-1
+2005-04-06,@New York Tech,New York Tech,2,12,-10
+2005-04-09,@Yale,Yale,2,4,-2
+2005-04-09,@Yale,Yale,2,8,-6
+2005-04-10,@Brown,Brown,5,12,-7
+2005-04-10,@Brown,Brown,5,10,-5
+2005-04-13,@Rutgers,Rutgers,2,9,-7
+2005-04-16,@Columbia,Cornell,3,5,-2
+2005-04-16,@Columbia,Cornell,6,9,-3
+2005-04-17,@Columbia,Cornell,10,4,6
+2005-04-17,@Columbia,Cornell,4,10,-6
+2005-04-20,@Columbia,Fordham,12,19,-7
+2005-04-20,@Columbia,Fordham,4,7,-3
+2005-04-23,@Princeton,Princeton,8,3,5
+2005-04-23,@Princeton,Princeton,6,2,4
+2005-04-24,@Princeton,Princeton,1,8,-7
+2005-04-24,@Princeton,Princeton,2,1,1
+2005-04-27,@Columbia,Manhattan,6,7,-1
+2005-04-27,@Columbia,Manhattan,5,1,4
+2005-05-01,@Monmouth,Monmouth,3,2,1
+2005-05-01,@Monmouth,Monmouth,3,0,3
+2006-03-04,@Davidson,Davidson,1,14,-13
+2006-03-04,@Davidson,Davidson,4,5,-1
+2006-03-05,@Davidson,Davidson,3,4,-1
+2006-03-05,@Davidson,Davidson,8,10,-2
+2006-03-11,@neutral,Army,3,14,-11
+2006-03-12,@neutral,Army,0,1,-1
+2006-03-12,@neutral,Army,0,8,-8
+2006-03-13,@neutral,Iona,4,10,-6
+2006-03-14,@neutral,Rhode Island,7,9,-2
+2006-03-15,@Florida Atlantic,Florida Atlantic,7,8,-1
+2006-03-16,@neutral,Rhode Island,0,6,-6
+2006-03-17,@neutral,Maine,7,6,1
+2006-03-17,@neutral,Maine,6,16,-10
+2006-03-18,@neutral,Maine,10,7,3
+2006-03-19,@Florida International,Florida International,1,7,-6
+2006-03-22,@Hofstra,Hofstra,3,4,-1
+2006-03-25,@Pennsylvania,Pennsylvania,11,12,-1
+2006-03-26,@Columbia,Pennsylvania,15,3,12
+2006-03-26,@Columbia,Pennsylvania,9,8,1
+2006-03-26,@Pennsylvania,Pennsylvania,7,8,-1
+2006-03-28,@St. John's,St. John's,2,10,-8
+2006-04-01,@Columbia,Yale,4,6,-2
+2006-04-01,@Columbia,Yale,9,7,2
+2006-04-02,@Columbia,Brown,6,5,1
+2006-04-02,@Columbia,Brown,1,6,-5
+2006-04-06,@Columbia,Monmouth,8,7,1
+2006-04-08,@Dartmouth,Dartmouth,0,1,-1
+2006-04-08,@Dartmouth,Dartmouth,2,12,-10
+2006-04-09,@Harvard,Harvard,1,8,-7
+2006-04-09,@Harvard,Harvard,5,13,-8
+2006-04-11,@Columbia,Rutgers,4,17,-13
+2006-04-15,@Columbia,Princeton,3,6,-3
+2006-04-15,@Columbia,Princeton,0,8,-8
+2006-04-16,@Columbia,Princeton,0,8,-8
+2006-04-16,@Columbia,Princeton,2,11,-9
+2006-04-19,@Fordham,Fordham,7,5,2
+2006-04-23,@Cornell,Cornell,7,3,4
+2006-04-23,@Cornell,Cornell,6,10,-4
+2006-04-24,@Cornell,Cornell,10,4,6
+2006-04-24,@Cornell,Cornell,2,11,-9
+2006-04-26,@Manhattan,Manhattan,0,2,-2
+2006-04-26,@Manhattan,Manhattan,3,9,-6
+2006-04-29,@Columbia,Long Island,5,2,3
+2006-04-29,@Columbia,Long Island,8,3,5
+2006-04-30,@Long Island,Long Island,10,9,1
+2007-03-03,@St. Mary's,St. Mary's,1,12,-11
+2007-03-04,@St. Mary's,St. Mary's,7,12,-5
+2007-03-04,@St. Mary's,St. Mary's,0,3,-3
+2007-03-10,@The Citadel,The Citadel,14,1,13
+2007-03-10,@The Citadel,The Citadel,1,2,-1
+2007-03-11,@The Citadel,The Citadel,1,6,-5
+2007-03-12,@Campbell,Campbell,14,4,10
+2007-03-13,@Campbell,Campbell,11,9,2
+2007-03-14,@Gardner-Webb,Gardner-Webb,8,20,-12
+2007-03-15,@Gardner-Webb,Gardner-Webb,14,6,8
+2007-03-16,@Western Carolina,Western Carolina,9,10,-1
+2007-03-17,@Western Carolina,Western Carolina,11,17,-6
+2007-03-18,@Western Carolina,Western Carolina,6,14,-8
+2007-03-24,@Columbia,Pennsylvania,0,12,-12
+2007-03-24,@Columbia,Pennsylvania,9,0,9
+2007-03-25,@Pennsylvania,Pennsylvania,8,6,2
+2007-03-25,@Pennsylvania,Pennsylvania,6,2,4
+2007-03-27,@neutral,St. John's,1,24,-23
+2007-03-28,@Hofstra,Hofstra,5,3,2
+2007-03-31,@Columbia,Dartmouth,3,8,-5
+2007-03-31,@Columbia,Dartmouth,6,2,4
+2007-04-01,@Columbia,Harvard,5,1,4
+2007-04-01,@Columbia,Harvard,4,9,-5
+2007-04-03,@Monmouth,Monmouth,3,10,-7
+2007-04-07,@Brown,Brown,2,9,-7
+2007-04-07,@Brown,Brown,1,8,-7
+2007-04-09,@Yale,Yale,9,10,-1
+2007-04-09,@Yale,Yale,3,6,-3
+2007-04-10,@Rutgers,Rutgers,6,21,-15
+2007-04-14,@Princeton,Princeton,6,5,1
+2007-04-14,@Princeton,Princeton,3,2,1
+2007-04-18,@Princeton,Princeton,5,11,-6
+2007-04-18,@Princeton,Princeton,4,5,-1
+2007-04-19,@Lafayette,Lafayette,1,2,-1
+2007-04-21,@Columbia,Cornell,7,3,4
+2007-04-21,@Columbia,Cornell,5,0,5
+2007-04-22,@Columbia,Cornell,6,9,-3
+2007-04-22,@Columbia,Cornell,5,2,3
+2007-04-25,@Columbia,Manhattan,5,4,1
+2007-04-25,@Columbia,Manhattan,1,5,-4
+2007-04-28,@Stony Brook,Stony Brook,7,9,-2
+2007-04-28,@Stony Brook,Stony Brook,5,6,-1
+2007-04-29,@Columbia,Stony Brook,3,5,-2
+2007-04-29,@Columbia,Stony Brook,2,6,-4
+2008-03-01,@Duke,Duke,1,2,-1
+2008-03-01,@Duke,Duke,3,11,-8
+2008-03-02,@Duke,Duke,1,4,-3
+2008-03-02,@Duke,Duke,5,19,-14
+2008-03-07,@Pepperdine,Pepperdine,1,7,-6
+2008-03-08,@Pepperdine,Pepperdine,3,7,-4
+2008-03-08,@Pepperdine,Pepperdine,2,5,-3
+2008-03-09,@Pepperdine,Pepperdine,0,9,-9
+2008-03-14,@Georgia Southern,Georgia Southern,8,5,3
+2008-03-15,@Georgia Southern,Georgia Southern,8,26,-18
+2008-03-16,@Georgia Southern,Georgia Southern,11,3,8
+2008-03-17,@Georgia Southern,Georgia Southern,8,22,-14
+2008-03-18,@Davidson,Davidson,2,3,-1
+2008-03-20,@Liberty,Liberty,10,13,-3
+2008-03-21,@Liberty,Liberty,11,6,5
+2008-03-21,@Liberty,Liberty,7,3,4
+2008-03-22,@Liberty,Liberty,2,12,-10
+2008-03-25,@St. John's,St. John's,5,10,-5
+2008-03-29,@Columbia,Brown,11,2,9
+2008-03-29,@Columbia,Brown,6,3,3
+2008-03-30,@Columbia,Yale,2,7,-5
+2008-03-30,@Columbia,Yale,6,5,1
+2008-04-01,@Columbia,Army,8,19,-11
+2008-04-06,@Harvard,Harvard,10,2,8
+2008-04-06,@Harvard,Harvard,2,0,2
+2008-04-07,@Dartmouth,Dartmouth,3,9,-6
+2008-04-07,@Dartmouth,Dartmouth,7,1,6
+2008-04-08,@Columbia,Rutgers,4,5,-1
+2008-04-12,@Columbia,Princeton,9,10,-1
+2008-04-12,@Columbia,Princeton,7,13,-6
+2008-04-13,@Columbia,Princeton,3,1,2
+2008-04-13,@Columbia,Princeton,7,5,2
+2008-04-16,@Columbia,Fordham,2,1,1
+2008-04-16,@Columbia,Fordham,8,9,-1
+2008-04-19,@Cornell,Cornell,8,6,2
+2008-04-19,@Cornell,Cornell,7,2,5
+2008-04-20,@Cornell,Cornell,6,2,4
+2008-04-20,@Cornell,Cornell,7,11,-4
+2008-04-23,@Manhattan,Manhattan,0,8,-8
+2008-04-23,@Manhattan,Manhattan,2,4,-2
+2008-04-26,@Columbia,Pennsylvania,7,5,2
+2008-04-26,@Columbia,Pennsylvania,5,4,1
+2008-04-27,@Pennsylvania,Pennsylvania,4,1,3
+2008-04-27,@Pennsylvania,Pennsylvania,13,5,8
+2008-05-06,@neutral,Dartmouth,11,7,4
+2008-05-06,@neutral,Dartmouth,15,16,-1
+2008-05-07,@neutral,Dartmouth,7,5,2
+2008-05-23,@Bucknell,Bucknell,2,4,-2
+2008-05-24,@neutral,Bucknell,2,6,-4
+2008-05-25,@Bucknell,Bucknell,3,8,-5
+2008-05-30,@neutral,Coastal Carolina,2,10,-8
+2008-05-31,@neutral,East Carolina,0,9,-9
+2009-02-27,@Lamar,Lamar,0,3,-3
+2009-02-28,@Lamar,Lamar,4,16,-12
+2009-02-28,@Lamar,Lamar,0,12,-12
+2009-03-01,@Lamar,Lamar,15,8,7
+2009-03-07,@North Carolina-Charlotte,North Carolina-Charlotte,4,9,-5
+2009-03-07,@North Carolina-Charlotte,North Carolina-Charlotte,1,4,-3
+2009-03-08,@North Carolina-Charlotte,North Carolina-Charlotte,1,5,-4
+2009-03-13,@UC Riverside,UC Riverside,5,14,-9
+2009-03-14,@UC Riverside,UC Riverside,4,6,-2
+2009-03-15,@UC Riverside,UC Riverside,5,15,-10
+2009-03-16,@San Diego,San Diego,3,10,-7
+2009-03-17,@San Diego,San Diego,2,6,-4
+2009-03-18,@San Diego,San Diego,2,4,-2
+2009-03-19,@Cal State Northridge,Cal State Northridge,2,8,-6
+2009-03-20,@Cal State Northridge,Cal State Northridge,10,1,9
+2009-03-21,@Cal State Northridge,Cal State Northridge,4,5,-1
+2009-03-21,@Cal State Northridge,Cal State Northridge,7,10,-3
+2009-03-24,@Columbia,St. John's,1,2,-1
+2009-03-28,@Columbia,Harvard,8,3,5
+2009-03-28,@Columbia,Harvard,8,6,2
+2009-03-29,@Columbia,Dartmouth,5,6,-1
+2009-03-29,@Columbia,Dartmouth,0,7,-7
+2009-03-31,@Army,Army,2,18,-16
+2009-04-04,@Yale,Yale,13,9,4
+2009-04-04,@Yale,Yale,8,6,2
+2009-04-05,@Brown,Brown,11,12,-1
+2009-04-05,@Brown,Brown,7,9,-2
+2009-04-07,@Rutgers,Rutgers,9,1,8
+2009-04-12,@Princeton,Princeton,8,0,8
+2009-04-12,@Princeton,Princeton,4,11,-7
+2009-04-13,@Princeton,Princeton,2,3,-1
+2009-04-13,@Princeton,Princeton,3,5,-2
+2009-04-15,@Fordham,Fordham,5,3,2
+2009-04-18,@Columbia,Cornell,4,2,2
+2009-04-18,@Columbia,Cornell,4,8,-4
+2009-04-19,@Columbia,Cornell,2,3,-1
+2009-04-19,@Columbia,Cornell,7,9,-2
+2009-04-22,@Columbia,Manhattan,1,4,-3
+2009-04-22,@Columbia,Manhattan,4,8,-4
+2009-04-25,@Columbia,Pennsylvania,7,11,-4
+2009-04-25,@Columbia,Pennsylvania,13,5,8
+2009-04-26,@Pennsylvania,Pennsylvania,5,11,-6
+2009-04-26,@Pennsylvania,Pennsylvania,9,15,-6
+2010-03-05,@Nevada-Las Vegas,Nevada-Las Vegas,5,14,-9
+2010-03-06,@Nevada-Las Vegas,Nevada-Las Vegas,4,11,-7
+2010-03-06,@Nevada-Las Vegas,Nevada-Las Vegas,12,13,-1
+2010-03-07,@Nevada-Las Vegas,Nevada-Las Vegas,8,6,2
+2010-03-13,@Richmond,Richmond,12,7,5
+2010-03-13,@Richmond,Richmond,3,6,-3
+2010-03-15,@Virginia Tech,Virginia Tech,10,22,-12
+2010-03-16,@Appalachian State,Appalachian State,9,10,-1
+2010-03-17,@Appalachian State,Appalachian State,4,8,-4
+2010-03-18,@Winthrop,Winthrop,4,2,2
+2010-03-19,@Winthrop,Winthrop,5,11,-6
+2010-03-19,@neutral,Kent State,2,5,-3
+2010-03-20,@neutral,Penn State,5,6,-1
+2010-03-24,@St. John's,St. John's,21,22,-1
+2010-03-27,@Columbia,Bucknell,5,1,4
+2010-03-27,@Columbia,Bucknell,5,3,2
+2010-03-28,@Columbia,Bucknell,6,5,1
+2010-03-28,@Columbia,Bucknell,6,5,1
+2010-04-01,@Columbia,St. Peter's,9,0,9
+2010-04-03,@Columbia,Yale,5,3,2
+2010-04-03,@Columbia,Yale,5,4,1
+2010-04-04,@Columbia,Brown,7,0,7
+2010-04-04,@Columbia,Brown,5,6,-1
+2010-04-07,@Columbia,Rutgers,12,11,1
+2010-04-10,@Dartmouth,Dartmouth,4,9,-5
+2010-04-10,@Dartmouth,Dartmouth,5,2,3
+2010-04-11,@Harvard,Harvard,7,4,3
+2010-04-11,@Harvard,Harvard,24,1,23
+2010-04-17,@Columbia,Princeton,6,3,3
+2010-04-17,@Columbia,Princeton,7,2,5
+2010-04-18,@Columbia,Princeton,3,9,-6
+2010-04-18,@Columbia,Princeton,9,4,5
+2010-04-21,@Manhattan,Manhattan,2,6,-4
+2010-04-21,@Manhattan,Manhattan,1,2,-1
+2010-04-24,@Cornell,Cornell,3,2,1
+2010-04-24,@Cornell,Cornell,0,1,-1
+2010-04-25,@Cornell,Cornell,0,7,-7
+2010-04-25,@Cornell,Cornell,4,1,3
+2010-04-28,@Columbia,Fordham,5,4,1
+2010-04-28,@Columbia,Fordham,6,3,3
+2010-04-30,@Pennsylvania,Pennsylvania,5,2,3
+2010-04-30,@Pennsylvania,Pennsylvania,10,9,1
+2010-05-01,@Columbia,Pennsylvania,2,10,-8
+2010-05-01,@Columbia,Pennsylvania,10,8,2
+2010-05-08,@neutral,Dartmouth,10,15,-5
+2010-05-08,@neutral,Dartmouth,13,2,11
+2010-05-09,@neutral,Dartmouth,5,11,-6
+2011-03-04,@Stetson,Stetson,6,7,-1
+2011-03-05,@neutral,Central Michigan,3,1,2
+2011-03-06,@neutral,Illinois,9,3,6
+2011-03-11,@South Alabama,South Alabama,0,3,-3
+2011-03-12,@South Alabama,South Alabama,7,10,-3
+2011-03-13,@South Alabama,South Alabama,5,2,3
+2011-03-14,@South Alabama,South Alabama,17,5,12
+2011-03-15,@Florida Gulf Coast,Florida Gulf Coast,5,3,2
+2011-03-16,@Florida Gulf Coast,Florida Gulf Coast,3,1,2
+2011-03-17,@Rollins,Rollins,8,7,1
+2011-03-18,@Central Florida,Central Florida,8,9,-1
+2011-03-19,@Central Florida,Central Florida,2,5,-3
+2011-03-20,@Central Florida,Central Florida,2,4,-2
+2011-03-26,@Columbia,Holy Cross,3,4,-1
+2011-03-26,@Columbia,Holy Cross,11,1,10
+2011-03-27,@Columbia,Holy Cross,7,3,4
+2011-03-27,@Columbia,Holy Cross,2,3,-1
+2011-03-30,@Monmouth,Monmouth,4,9,-5
+2011-04-02,@Columbia,Dartmouth,4,6,-2
+2011-04-02,@Columbia,Dartmouth,1,8,-7
+2011-04-03,@Columbia,Harvard,11,2,9
+2011-04-03,@Columbia,Harvard,8,0,8
+2011-04-06,@Rutgers,Rutgers,4,5,-1
+2011-04-09,@Brown,Brown,1,2,-1
+2011-04-09,@Brown,Brown,5,6,-1
+2011-04-10,@Yale,Yale,3,6,-3
+2011-04-10,@Yale,Yale,8,1,7
+2011-04-13,@Columbia,Manhattan,6,5,1
+2011-04-16,@Columbia,Cornell,2,1,1
+2011-04-16,@Columbia,Cornell,12,2,10
+2011-04-17,@Columbia,Cornell,1,7,-6
+2011-04-17,@Columbia,Cornell,6,0,6
+2011-04-20,@Columbia,Manhattan,2,7,-5
+2011-04-20,@Columbia,Manhattan,0,6,-6
+2011-04-24,@Princeton,Princeton,8,5,3
+2011-04-24,@Princeton,Princeton,4,6,-2
+2011-04-25,@Princeton,Princeton,2,3,-1
+2011-04-25,@Princeton,Princeton,2,4,-2
+2011-04-27,@Fordham,Fordham,5,10,-5
+2011-04-27,@Fordham,Fordham,3,6,-3
+2011-04-29,@Columbia,Pennsylvania,7,13,-6
+2011-04-29,@Columbia,Pennsylvania,7,4,3
+2011-04-30,@Pennsylvania,Pennsylvania,11,10,1
+2011-04-30,@Pennsylvania,Pennsylvania,5,6,-1
+2012-03-01,@The Citadel,The Citadel,1,4,-3
+2012-03-03,@The Citadel,The Citadel,0,2,-2
+2012-03-04,@The Citadel,The Citadel,11,7,4
+2012-03-04,@The Citadel,The Citadel,4,5,-1
+2012-03-09,@San Jose State,San Jose State,2,4,-2
+2012-03-10,@neutral,Lehigh,14,2,12
+2012-03-10,@neutral,Santa Clara,0,3,-3
+2012-03-11,@neutral,Utah,1,7,-6
+2012-03-12,@San Jose State,San Jose State,1,6,-5
+2012-03-14,@Pepperdine,Pepperdine,1,3,-2
+2012-03-15,@San Diego,San Diego,5,14,-9
+2012-03-16,@San Diego,San Diego,5,11,-6
+2012-03-16,@San Diego,San Diego,6,2,4
+2012-03-18,@San Diego,San Diego,10,11,-1
+2012-03-23,@Columbia,Stony Brook,10,11,-1
+2012-03-23,@Columbia,Stony Brook,5,6,-1
+2012-03-24,@Holy Cross,Holy Cross,3,1,2
+2012-03-24,@Holy Cross,Holy Cross,6,0,6
+2012-03-28,@Columbia,Army,7,5,2
+2012-03-31,@Columbia,Yale,3,0,3
+2012-03-31,@Columbia,Yale,3,1,2
+2012-04-01,@Columbia,Brown,3,4,-1
+2012-04-01,@Columbia,Brown,14,6,8
+2012-04-04,@Columbia,Rutgers,7,6,1
+2012-04-07,@Harvard,Harvard,10,1,9
+2012-04-07,@Harvard,Harvard,2,6,-4
+2012-04-08,@Dartmouth,Dartmouth,4,3,1
+2012-04-08,@Dartmouth,Dartmouth,3,11,-8
+2012-04-10,@St. John's,St. John's,9,6,3
+2012-04-14,@Cornell,Cornell,1,2,-1
+2012-04-14,@Cornell,Cornell,0,3,-3
+2012-04-15,@Cornell,Cornell,4,5,-1
+2012-04-15,@Cornell,Cornell,5,1,4
+2012-04-18,@Manhattan,Manhattan,3,6,-3
+2012-04-18,@Manhattan,Manhattan,2,9,-7
+2012-04-20,@Columbia,Princeton,4,1,3
+2012-04-20,@Columbia,Princeton,2,5,-3
+2012-04-21,@Columbia,Princeton,8,5,3
+2012-04-21,@Columbia,Princeton,8,7,1
+2012-04-25,@Columbia,Fordham,2,4,-2
+2012-04-25,@Columbia,Fordham,6,1,5
+2012-04-27,@Pennsylvania,Pennsylvania,12,2,10
+2012-04-27,@Pennsylvania,Pennsylvania,13,3,10
+2012-04-28,@Columbia,Pennsylvania,5,8,-3
+2012-04-28,@Columbia,Pennsylvania,11,1,10
+2013-03-01,@Lamar,Lamar,1,5,-4
+2013-03-02,@Lamar,Lamar,5,7,-2
+2013-03-02,@Lamar,Lamar,5,9,-4
+2013-03-03,@Lamar,Lamar,0,6,-6
+2013-03-08,@Arizona,Arizona,3,4,-1
+2013-03-09,@Arizona,Arizona,8,4,4
+2013-03-10,@Arizona,Arizona,5,7,-2
+2013-03-15,@Central Florida,Central Florida,3,10,-7
+2013-03-16,@Central Florida,Central Florida,5,4,1
+2013-03-17,@Central Florida,Central Florida,1,6,-5
+2013-03-18,@Central Florida,Central Florida,1,5,-4
+2013-03-19,"@Miami, Florida","Miami, Florida",6,9,-3
+2013-03-20,"@Miami, Florida","Miami, Florida",4,6,-2
+2013-03-22,@Columbia,New York Tech,2,1,1
+2013-03-22,@Columbia,New York Tech,2,0,2
+2013-03-23,@Army,Army,5,1,4
+2013-03-24,@neutral,New York Tech,9,4,5
+2013-03-27,@Columbia,Manhattan,6,3,3
+2013-03-27,@Columbia,Manhattan,0,4,-4
+2013-03-30,@Columbia,Harvard,5,0,5
+2013-03-30,@Columbia,Harvard,3,2,1
+2013-03-31,@Columbia,Dartmouth,2,3,-1
+2013-03-31,@Columbia,Dartmouth,4,7,-3
+2013-04-02,@Rutgers,Rutgers,6,15,-9
+2013-04-06,@Yale,Yale,5,2,3
+2013-04-06,@Yale,Yale,2,1,1
+2013-04-07,@Brown,Brown,13,4,9
+2013-04-07,@Brown,Brown,2,0,2
+2013-04-09,@Columbia,St. John's,5,3,2
+2013-04-13,@Columbia,Cornell,8,1,7
+2013-04-13,@Columbia,Cornell,5,0,5
+2013-04-14,@Columbia,Cornell,4,5,-1
+2013-04-14,@Columbia,Cornell,5,2,3
+2013-04-20,@Princeton,Princeton,4,0,4
+2013-04-20,@Princeton,Princeton,7,1,6
+2013-04-21,@Princeton,Princeton,10,2,8
+2013-04-21,@Princeton,Princeton,0,2,-2
+2013-04-24,@Fordham,Fordham,4,5,-1
+2013-04-24,@Fordham,Fordham,3,9,-6
+2013-04-26,@Columbia,Pennsylvania,14,1,13
+2013-04-26,@Columbia,Pennsylvania,3,2,1
+2013-04-27,@Pennsylvania,Pennsylvania,6,4,2
+2013-04-27,@Pennsylvania,Pennsylvania,1,0,1
+2013-05-04,@neutral,Dartmouth,12,5,7
+2013-05-04,@neutral,Dartmouth,6,5,1
+2013-05-20,@Columbia,Sacred Heart,9,2,7
+2013-05-31,@neutral,Cal State Fullerton,1,4,-3
+2013-06-01,@neutral,New Mexico,6,5,1
+2013-06-02,@neutral,Arizona State,5,10,-5
+2014-02-28,@South Florida,South Florida,1,0,1
+2014-03-01,@South Florida,South Florida,6,4,2
+2014-03-01,@South Florida,South Florida,5,13,-8
+2014-03-02,@South Florida,South Florida,2,7,-5
+2014-03-07,@Kennesaw State,Kennesaw State,0,2,-2
+2014-03-08,@Kennesaw State,Kennesaw State,1,15,-14
+2014-03-08,@Kennesaw State,Kennesaw State,9,3,6
+2014-03-09,@Kennesaw State,Kennesaw State,8,5,3
+2014-03-14,@Texas-San Antonio,Texas-San Antonio,4,5,-1
+2014-03-15,@Texas-San Antonio,Texas-San Antonio,8,9,-1
+2014-03-15,@Texas-San Antonio,Texas-San Antonio,1,5,-4
+2014-03-16,@Texas-San Antonio,Texas-San Antonio,4,2,2
+2014-03-18,@Texas A&M,Texas A&M,7,8,-1
+2014-03-19,@Texas-Arlington,Texas-Arlington,4,8,-4
+2014-03-21,@Texas,Texas,3,7,-4
+2014-03-22,@Texas,Texas,0,11,-11
+2014-03-22,@Texas,Texas,1,6,-5
+2014-03-27,@Army,Army,4,0,4
+2014-03-31,@Columbia,Brown,4,0,4
+2014-03-31,@Columbia,Brown,4,0,4
+2014-04-01,@Columbia,Yale,1,4,-3
+2014-04-01,@Columbia,Yale,0,3,-3
+2014-04-05,@Dartmouth,Dartmouth,2,3,-1
+2014-04-05,@Dartmouth,Dartmouth,5,4,1
+2014-04-06,@Harvard,Harvard,12,6,6
+2014-04-06,@Harvard,Harvard,8,3,5
+2014-04-09,@Rutgers,Rutgers,13,2,11
+2014-04-12,@Columbia,Princeton,8,2,6
+2014-04-12,@Columbia,Princeton,3,2,1
+2014-04-13,@Columbia,Princeton,9,6,3
+2014-04-13,@Columbia,Princeton,13,3,10
+2014-04-16,@Columbia,St. John's,11,4,7
+2014-04-19,@Cornell,Cornell,1,0,1
+2014-04-19,@Cornell,Cornell,8,0,8
+2014-04-20,@Cornell,Cornell,2,0,2
+2014-04-20,@Cornell,Cornell,8,4,4
+2014-04-23,@Columbia,Fordham,7,5,2
+2014-04-25,@Pennsylvania,Pennsylvania,6,0,6
+2014-04-25,@Pennsylvania,Pennsylvania,4,12,-8
+2014-04-26,@Columbia,Pennsylvania,2,3,-1
+2014-04-26,@Columbia,Pennsylvania,5,2,3
+2014-05-03,@Pennsylvania,Pennsylvania,4,0,4
+2014-05-10,@neutral,Dartmouth,4,1,3
+2014-05-10,@neutral,Dartmouth,6,2,4
+2014-05-23,@Bucknell,Bucknell,1,2,-1
+2014-05-23,@Bucknell,Bucknell,3,1,2
+2014-05-24,@Bucknell,Bucknell,4,3,1
+2014-05-30,@neutral,Texas Tech,2,3,-1
+2014-05-31,@neutral,Bethune-Cookman,5,6,-1
+2015-02-27,@Houston,Houston,0,3,-3
+2015-02-28,@Houston,Houston,5,4,1
+2015-02-28,@Houston,Houston,7,8,-1
+2015-03-01,@Houston,Houston,12,7,5
+2015-03-06,@Central Florida,Central Florida,1,9,-8
+2015-03-07,@Central Florida,Central Florida,1,5,-4
+2015-03-08,@Central Florida,Central Florida,3,9,-6
+2015-03-15,@North Carolina-Wilmington,North Carolina-Wilmington,6,8,-2
+2015-03-15,@neutral,North Carolina-Greensboro,8,7,1
+2015-03-16,@North Carolina-Wilmington,North Carolina-Wilmington,5,10,-5
+2015-03-17,@Duke,Duke,2,5,-3
+2015-03-18,@Duke,Duke,4,16,-12
+2015-03-20,@South Carolina-Upstate,South Carolina-Upstate,7,5,2
+2015-03-20,@South Carolina-Upstate,South Carolina-Upstate,4,1,3
+2015-03-21,@South Carolina-Upstate,South Carolina-Upstate,6,4,2
+2015-03-22,@South Carolina-Upstate,South Carolina-Upstate,6,3,3
+2015-03-25,@Columbia,Army,13,10,3
+2015-03-28,@Columbia,Dartmouth,4,5,-1
+2015-03-28,@Columbia,Dartmouth,4,1,3
+2015-03-29,@Columbia,Harvard,5,4,1
+2015-03-29,@Columbia,Harvard,9,7,2
+2015-04-05,@Yale,Yale,16,2,14
+2015-04-05,@Yale,Yale,9,3,6
+2015-04-06,@Brown,Brown,11,3,8
+2015-04-06,@Brown,Brown,8,0,8
+2015-04-08,@St. John's,St. John's,5,4,1
+2015-04-11,@Princeton,Princeton,3,4,-1
+2015-04-11,@Princeton,Princeton,10,4,6
+2015-04-12,@Princeton,Princeton,9,1,8
+2015-04-12,@Princeton,Princeton,4,0,4
+2015-04-15,@Rutgers,Rutgers,4,7,-3
+2015-04-18,@Columbia,Cornell,9,8,1
+2015-04-18,@Columbia,Cornell,4,3,1
+2015-04-19,@Columbia,Cornell,20,5,15
+2015-04-19,@Columbia,Cornell,10,2,8
+2015-04-22,@Fordham,Fordham,16,3,13
+2015-04-25,@Columbia,Pennsylvania,1,0,1
+2015-04-25,@Columbia,Pennsylvania,3,4,-1
+2015-04-26,@Pennsylvania,Pennsylvania,0,2,-2
+2015-04-26,@Pennsylvania,Pennsylvania,8,6,2
+2015-05-02,@neutral,Pennsylvania,4,2,2
+2015-05-09,@neutral,Dartmouth,6,7,-1
+2015-05-09,@neutral,Dartmouth,7,2,5
+2015-05-10,@neutral,Dartmouth,10,7,3
+2015-05-23,@Columbia,Lehigh,8,3,5
+2015-05-23,@Columbia,Lehigh,14,3,11
+2015-05-29,@neutral,East Carolina,6,3,3
+2015-05-30,@neutral,"Miami, Florida",3,8,-5
+2015-05-31,@neutral,"Miami, Florida",3,0,3
+2015-05-31,@neutral,Florida International,4,3,1
+2015-06-01,@neutral,"Miami, Florida",3,21,-18
+2016-03-04,@Jacksonville,Jacksonville,0,2,-2
+2016-03-05,@Jacksonville,Jacksonville,0,1,-1
+2016-03-05,@Jacksonville,Jacksonville,9,8,1
+2016-03-06,@Jacksonville,Jacksonville,5,4,1
+2016-03-12,@Pepperdine,Pepperdine,6,15,-9
+2016-03-12,@Pepperdine,Pepperdine,2,12,-10
+2016-03-13,@Pepperdine,Pepperdine,1,3,-2
+2016-03-14,@Pepperdine,Pepperdine,3,11,-8
+2016-03-15,@San Diego,San Diego,5,21,-16
+2016-03-16,@San Diego,San Diego,3,6,-3
+2016-03-17,@Long Beach State,Long Beach State,1,4,-3
+2016-03-18,@Long Beach State,Long Beach State,3,8,-5
+2016-03-19,@Long Beach State,Long Beach State,2,7,-5
+2016-03-20,@Long Beach State,Long Beach State,8,6,2
+2016-03-23,@Army,Army,13,3,10
+2016-03-25,@Columbia,Connecticut,4,3,1
+2016-03-26,@Connecticut,Connecticut,3,4,-1
+2016-03-26,@Connecticut,Connecticut,0,3,-3
+2016-04-02,@Columbia,Yale,7,9,-2
+2016-04-02,@Columbia,Yale,5,14,-9
+2016-04-03,@Columbia,Brown,10,2,8
+2016-04-03,@Columbia,Brown,7,3,4
+2016-04-06,@Columbia,St. John's,4,1,3
+2016-04-09,@Harvard,Harvard,4,3,1
+2016-04-09,@Harvard,Harvard,3,11,-8
+2016-04-10,@Dartmouth,Dartmouth,1,3,-2
+2016-04-10,@Dartmouth,Dartmouth,6,7,-1
+2016-04-16,@Cornell,Cornell,14,4,10
+2016-04-16,@Cornell,Cornell,3,9,-6
+2016-04-17,@Cornell,Cornell,3,4,-1
+2016-04-17,@Cornell,Cornell,4,7,-3
+2016-04-20,@Columbia,Fordham,1,4,-3
+2016-04-23,@Columbia,Princeton,2,6,-4
+2016-04-23,@Columbia,Princeton,8,4,4
+2016-04-24,@Columbia,Princeton,5,4,1
+2016-04-24,@Columbia,Princeton,8,7,1
+2016-04-27,@Columbia,Manhattan,14,12,2
+2016-04-29,@Pennsylvania,Pennsylvania,4,2,2
+2016-04-29,@Pennsylvania,Pennsylvania,3,1,2
+2016-04-30,@Columbia,Pennsylvania,9,8,1
+2016-04-30,@Columbia,Pennsylvania,4,7,-3
+2017-03-03,@Florida,Florida,0,7,-7
+2017-03-04,@Florida,Florida,2,7,-5
+2017-03-05,@Florida,Florida,4,8,-4
+2017-03-10,@Columbia,South Alabama,1,4,-3
+2017-03-12,@Mississippi State,Mississippi State,4,5,-1
+2017-03-12,@South Alabama,South Alabama,3,4,-1
+2017-03-13,@Mississippi State,Mississippi State,8,11,-3
+2017-03-14,@Southern Mississippi,Southern Mississippi,3,4,-1
+2017-03-15,@Southern Mississippi,Southern Mississippi,5,20,-15
+2017-03-17,@Tulane,Tulane,0,7,-7
+2017-03-18,@Tulane,Tulane,11,5,6
+2017-03-19,@Tulane,Tulane,7,8,-1
+2017-03-24,@Penn State,Penn State,7,11,-4
+2017-03-25,@Penn State,Penn State,6,10,-4
+2017-03-25,@Penn State,Penn State,4,2,2
+2017-03-26,@Penn State,Penn State,8,5,3
+2017-04-01,@Columbia,Harvard,2,0,2
+2017-04-01,@Columbia,Harvard,5,1,4
+2017-04-02,@Columbia,Dartmouth,2,9,-7
+2017-04-02,@Columbia,Dartmouth,2,6,-4
+2017-04-05,@St. John's,St. John's,7,4,3
+2017-04-09,@Brown,Brown,3,1,2
+2017-04-09,@Brown,Brown,9,5,4
+2017-04-10,@Yale,Yale,3,6,-3
+2017-04-10,@Yale,Yale,4,5,-1
+2017-04-11,@Columbia,Monmouth,12,17,-5
+2017-04-15,@Columbia,Cornell,7,8,-1
+2017-04-15,@Columbia,Cornell,6,12,-6
+2017-04-16,@Columbia,Cornell,5,9,-4
+2017-04-16,@Columbia,Cornell,8,7,1
+2017-04-19,@Fordham,Fordham,6,1,5
+2017-04-21,@Princeton,Princeton,6,4,2
+2017-04-21,@Princeton,Princeton,5,4,1
+2017-04-23,@Princeton,Princeton,21,5,16
+2017-04-23,@Princeton,Princeton,15,2,13
+2017-04-26,@Rutgers,Rutgers,13,7,6
+2017-04-28,@Columbia,Pennsylvania,12,7,5
+2017-04-28,@Columbia,Pennsylvania,6,7,-1
+2017-04-29,@Pennsylvania,Pennsylvania,7,5,2
+2017-04-29,@Pennsylvania,Pennsylvania,14,4,10
+2017-05-07,@Columbia,Pennsylvania,3,6,-3
+2018-02-23,@Nevada-Las Vegas,Nevada-Las Vegas,3,8,-5
+2018-02-24,@Nevada-Las Vegas,Nevada-Las Vegas,7,13,-6
+2018-02-24,@Nevada-Las Vegas,Nevada-Las Vegas,0,11,-11
+2018-02-25,@Nevada-Las Vegas,Nevada-Las Vegas,3,13,-10
+2018-03-02,@South Florida,South Florida,1,13,-12
+2018-03-03,@South Florida,South Florida,4,3,1
+2018-03-03,@South Florida,South Florida,0,8,-8
+2018-03-04,@South Florida,South Florida,6,13,-7
+2018-03-09,@Texas-San Antonio,Texas-San Antonio,9,3,6
+2018-03-10,@Texas-San Antonio,Texas-San Antonio,2,3,-1
+2018-03-10,@Texas-San Antonio,Texas-San Antonio,11,7,4
+2018-03-11,@Texas-San Antonio,Texas-San Antonio,5,8,-3
+2018-03-13,@Texas A&M-Corpus Christi,Texas A&M-Corpus Christi,3,6,-3
+2018-03-14,@Rice,Rice,5,14,-9
+2018-03-16,@Columbia,New Mexico,9,10,-1
+2018-03-17,@Houston,Houston,3,4,-1
+2018-03-17,@New Mexico,New Mexico,1,3,-2
+2018-03-18,@Houston,Houston,2,6,-4
+2018-03-24,@Columbia,Yale,11,10,1
+2018-03-25,@Columbia,Yale,6,5,1
+2018-03-25,@Columbia,Yale,2,8,-6
+2018-03-27,@Columbia,Manhattan,7,8,-1
+2018-03-31,@Columbia,Harvard,7,1,6
+2018-03-31,@Columbia,Harvard,6,11,-5
+2018-04-01,@Columbia,Harvard,9,6,3
+2018-04-04,@Columbia,St. John's,7,6,1
+2018-04-07,@Dartmouth,Dartmouth,4,5,-1
+2018-04-08,@Dartmouth,Dartmouth,12,3,9
+2018-04-08,@Dartmouth,Dartmouth,4,10,-6
+2018-04-11,@Monmouth,Monmouth,3,9,-6
+2018-04-13,@Brown,Brown,8,2,6
+2018-04-14,@Brown,Brown,5,4,1
+2018-04-14,@Brown,Brown,2,0,2
+2018-04-18,@Columbia,Fordham,10,1,9
+2018-04-21,@Columbia,Princeton,5,10,-5
+2018-04-21,@Columbia,Princeton,2,0,2
+2018-04-22,@Columbia,Princeton,6,7,-1
+2018-04-24,@Army,Army,1,3,-2
+2018-04-28,@Columbia,Pennsylvania,2,3,-1
+2018-04-28,@Columbia,Pennsylvania,20,4,16
+2018-04-29,@Columbia,Pennsylvania,8,6,2
+2018-05-01,@Rutgers,Rutgers,4,15,-11
+2018-05-12,@Cornell,Cornell,2,14,-12
+2018-05-12,@Cornell,Cornell,3,2,1
+2018-05-13,@Cornell,Cornell,3,2,1
+2018-05-22,@Yale,Yale,4,0,4
+2018-05-23,@Columbia,Yale,2,1,1
+2018-05-27,@Army,Army,7,8,-1
+2018-06-01,@Florida,Florida,5,13,-8
+2018-06-02,@Columbia,Florida Atlantic,2,11,-9
+2019-03-01,@Oklahoma,Oklahoma,3,12,-9
+2019-03-01,@Oklahoma,Oklahoma,1,9,-8
+2019-03-02,@Oklahoma,Oklahoma,2,6,-4
+2019-03-02,@Oklahoma,Oklahoma,0,9,-9
+2019-03-08,@Cal Poly,Cal Poly,2,3,-1
+2019-03-09,@Cal Poly,Cal Poly,1,2,-1
+2019-03-09,@Cal Poly,Cal Poly,6,13,-7
+2019-03-10,@Cal Poly,Cal Poly,4,5,-1
+2019-03-15,@North Florida,North Florida,2,1,1
+2019-03-16,@North Florida,North Florida,4,6,-2
+2019-03-16,@North Florida,North Florida,11,7,4
+2019-03-17,@North Florida,North Florida,4,11,-7
+2019-03-20,"@Miami, Florida","Miami, Florida",4,2,2
+2019-03-23,@Columbia,Cornell,3,0,3
+2019-03-24,@Columbia,Cornell,3,4,-1
+2019-03-24,@Columbia,Cornell,13,8,5
+2019-03-27,@Columbia,Manhattan,7,2,5
+2019-03-30,@Columbia,Dartmouth,1,23,-22
+2019-03-30,@Columbia,Dartmouth,23,9,14
+2019-03-31,@Columbia,Dartmouth,11,1,10
+2019-04-03,@St. John's,St. John's,7,22,-15
+2019-04-06,@Princeton,Princeton,8,2,6
+2019-04-06,@Princeton,Princeton,6,8,-2
+2019-04-07,@Princeton,Princeton,2,1,1
+2019-04-09,@Fordham,Fordham,2,3,-1
+2019-04-13,@Yale,Yale,8,2,6
+2019-04-13,@Yale,Yale,3,2,1
+2019-04-14,@Yale,Yale,4,1,3
+2019-04-17,@Columbia,Monmouth,1,0,1
+2019-04-20,@Columbia,Brown,5,8,-3
+2019-04-21,@Columbia,Brown,11,3,8
+2019-04-21,@Columbia,Brown,9,6,3
+2019-04-23,@Columbia,Rutgers,5,8,-3
+2019-04-27,@Harvard,Harvard,4,6,-2
+2019-04-27,@Harvard,Harvard,11,9,2
+2019-04-28,@Harvard,Harvard,9,10,-1
+2019-05-01,@Army,Army,15,12,3
+2019-05-03,@Pennsylvania,Pennsylvania,1,13,-12
+2019-05-04,@Pennsylvania,Pennsylvania,2,5,-3
+2019-05-04,@Pennsylvania,Pennsylvania,4,0,4
+2019-05-18,@Harvard,Harvard,1,3,-2
+2019-05-19,@Columbia,Harvard,6,8,-2
+2020-02-28,@Fresno State,Fresno State,1,9,-8
+2020-02-29,@Fresno State,Fresno State,2,10,-8
+2020-02-29,@Fresno State,Fresno State,4,7,-3
+2020-03-01,@Fresno State,Fresno State,3,12,-9
+2020-03-06,@Nebraska,Nebraska,3,5,-2
+2020-03-07,@Nebraska,Nebraska,3,7,-4
+2020-03-07,@Nebraska,Nebraska,3,2,1
+2020-03-08,@Nebraska,Nebraska,5,12,-7
