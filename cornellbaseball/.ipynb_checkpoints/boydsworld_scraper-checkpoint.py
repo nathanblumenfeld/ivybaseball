@@ -33,7 +33,7 @@ def get_games(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "t
             .pipe(set_dtypes)
             .drop(columns=["team_1","team_1_score","team_2","team_2_score"])
             .sort_values(by="date",axis=0,ascending=True)
-         )
+          )
     # boydsworld sometimes struggles with single year inquiries 
     return df
 
@@ -56,10 +56,13 @@ def load_data(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "t
     dfs = pd.read_html(io=io, parse_dates=parse_dates)
     df = dfs[1].dropna(how="all", axis=1)
     # reset column names
+    if len(df.columns) != len(col_names):
+        print("no records were found. If you believe this is a mistake, please open a bug report")
+        return pd.DataFrame()
     df.columns = col_names
     if parse_dates:
         # make sure dates are parsed as type datetime64[ns]
-        df.astype({"date":"datetime64[ns]"})
+        df = df.astype({"date":"datetime64[ns]"})
     return df
 
 def enrich_data(df, team_1):
