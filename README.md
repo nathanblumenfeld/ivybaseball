@@ -9,4 +9,5 @@ Useful Links:
   <li>https://library.fangraphs.com/war/war-position-players/</li>
   <li>https://docs.google.com/spreadsheets/d/1wVqLNnRhtBrqXPIEKGJucjLGUq-GPW_hhbGZ1ufIE0A/edit#gid=0</li>
   <li>https://github.com/davmiller/NCAA-baseball</li>
+  <li>https://rfrey22.medium.com/collegiate-linear-weights-f0237cf40451</li>
 </ul> 
