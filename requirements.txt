@@ -1,1 +1,15 @@
-TODO
+numpy                     1.19.2           py38hadc3359_0
+numpy-base                1.19.2           py38ha3acd2a_0
+numpydoc                  1.1.0              pyhd3eb1b0_1
+pandas                    1.2.3            py38hf11a4ad_0
+plotly                    4.14.3             pyhd3eb1b0_0
+python                    3.8.8                hdbf39b2_4
+python-dateutil           2.8.1              pyhd3eb1b0_0
+python-jsonrpc-server     0.3.4                      py_1
+python-language-server    0.31.9                   py38_0
+python_abi                3.8                      2_cp38    conda-forge
+requests                  2.25.1             pyhd3eb1b0_0
+requests-unixsocket       0.2.0                      py_0    conda-forge
+seaborn                   0.11.2             pyhd3eb1b0_0
+session-info              1.0.0                    pypi_0    pypi
+setuptools                52.0.0           py38haa95532_0
