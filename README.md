@@ -8,4 +8,5 @@ Useful Links:
   <li>https://library.fangraphs.com/offense/wrc/</li>
   <li>https://library.fangraphs.com/war/war-position-players/</li>
   <li>https://docs.google.com/spreadsheets/d/1wVqLNnRhtBrqXPIEKGJucjLGUq-GPW_hhbGZ1ufIE0A/edit#gid=0</li>
+  <li>https://github.com/davmiller/NCAA-baseball</li>
 </ul> 
