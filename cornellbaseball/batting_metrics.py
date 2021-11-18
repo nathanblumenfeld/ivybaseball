@@ -5,7 +5,9 @@ import numpy as np
 # filepath of Cornell individual season totals
 STATS_FILEPATH = "data/cornell/cornell_batting_individual_season_totals_2015_to_2020.xlsx"
 # filepath of D1 linear weights
-LW_FILEPATH = "data/ncaa_d1_woba_linear_weights.csv"
+LW_FILEPATH = "data/ncaa_d1_woba_linear_weights.csv"  # <-- Driveline BB's Linear Weights
+# Alternate LW_FILEPATH: "data/ncaa_guts.csv" <-- Robert Fray's Linear Weights
+
 # round to 
 ROUND_TO = 3
 
