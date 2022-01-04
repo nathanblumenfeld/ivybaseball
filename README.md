@@ -10,4 +10,7 @@ Useful Links:
   <li>https://docs.google.com/spreadsheets/d/1wVqLNnRhtBrqXPIEKGJucjLGUq-GPW_hhbGZ1ufIE0A/edit#gid=0</li>
   <li>https://github.com/davmiller/NCAA-baseball</li>
   <li>https://rfrey22.medium.com/collegiate-linear-weights-f0237cf40451</li>
+  <li>http://www.thebaseballcube.com/</li>
+  <li>https://github.com/milesokamoto/pbpy</li><
+  <li>https://github.com/chonyy/ML-auto-baseball-pitching-overlay</li>
 </ul> 
