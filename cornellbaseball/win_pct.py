@@ -1,3 +1,9 @@
+"""
+A module to calculate actual and expected winning percentages from boysworld.com data
+
+created by Nathan Blumenfeld for Cornell Baseball
+"""
+
 import pandas as pd
 from cornellbaseball import boydsworld_scraper
 

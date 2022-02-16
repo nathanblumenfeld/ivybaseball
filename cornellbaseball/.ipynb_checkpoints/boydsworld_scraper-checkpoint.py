@@ -22,7 +22,7 @@ def get_games(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "t
     Data from boydsworld.com
 
     Parameter team_name: team whose games to select 
-    Precondition: team_name is a lowercase string
+    Precondition: lowercase str 
     Parameter start: the start year of games. To select only games from one year, leave  
     Precondition: start is an int >= 1992
     Parameter end: the end year of games
@@ -40,7 +40,7 @@ def get_games(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "t
 # HELPER FUNCTIONS
 def load_data(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "team_1_score", "team_2", "team_2_score", "field"],parse_dates=True,url=URL):
     """
-    rtype: DataFrame
+    Returns: DataFrame
     """
     if end is None: 
         end = start
@@ -62,7 +62,9 @@ def load_data(team_1,start,end=None,team_2="all",col_names=["date", "team_1", "t
     df.columns = col_names
     if parse_dates:
         # make sure dates are parsed as type datetime64[ns]
-        df = df.astype({"date":"datetime64[ns]"})
+#         df = df.astype({"date":"datetime64[ns]"})
+        df['date'] = pd.to_datetime(df['date'], infer_datetime_format=True)
+#         df['date'] = pd.to_datetime(df['date']).dt.date
     return df
 
 def enrich_data(df, team_1):
